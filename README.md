@@ -1,12 +1,11 @@
-![UH Logo](https://uh-enterprise.com/static/images/uh-banner-standard.png)
-
-# UH Enterprise Tracker
+# UH Enterprise Docs
 Open-source issue tracker and documentation hub for [UH Enterprise](https://uh-enterprise.com).
 
-#### This repository aims to accomplish two main tasks:
+#### This repository aims to accomplish three main tasks:
 
 1. Provide the ability for users to submit bug reports directly to UH Enterprise developers.
 2. Provide the ability for users to suggest new features and to upvote already suggested features for consideration in future updates to the service.
+3. Provide a thorough documentation platform to aid the use of UH Enterprise.
 
 ## Submitting a report:
 

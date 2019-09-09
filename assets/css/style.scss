@@ -5,8 +5,19 @@
 
 .page-header {
     padding: 1rem 6rem;
+    background-color: #0C113A;
+    background-image: none;
 }
 
 .nav-link {
     color: #ffffff;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+    color: #0C113A;
 }

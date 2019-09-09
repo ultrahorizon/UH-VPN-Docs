@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+    padding: 1rem 6rem;
+}
+
+.nav-link {
+    color: #ffffff;
+}

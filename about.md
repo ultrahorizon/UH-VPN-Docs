@@ -1,10 +1,10 @@
-# UH Enterprise
+# About
 
 ## Introduction
-UH Enterprise is designed to be a fast, secure and convenient alternative to other large scale corporate VPN platforms. Most of the technology is derived from an early consumer VPN application called UH Net engineered by Ultra Horizon in 2017. UH Net was designed to accomplish three things:
+UH Enterprise is designed to be a fast, secure and convenient alternative to other large scale corporate VPN platforms. Most of the technology is derived from an early consumer VPN application called UH Net; engineered by Ultra Horizon in 2017. UH Net was designed to accomplish three things:
 
 **1. Speed:**
-Be the fastest VPN system available by utilising cryptographic accelerated server hardware and VPN clients designed specifically to use the latest standards in network performance.
+Be the fastest VPN system available by utilising cryptographically accelerated server hardware and VPN clients designed specifically to use the latest standards in networking.
 
 **2. Security:**
 Utilise the most cutting edge cryptographic algorithms to ensure that the confidentiality and integrity of a user's data is never compromised.

@@ -22,11 +22,11 @@ UH Enterprise organisations represent a collective group personnel with access t
 
 Every UH Enterprise organisation contains a list of administrators that are authorised to alter every part of an organisation including membership of other administrators. An admin can view the list of administrators at any point by clicking ![admins](https://uh-enterprise.com/static/images/icons/person.svg) next to any organisation one has access to.
 
-##### Adding an admin
+#### Adding an admin
 
 New admins can be enrolled by any organisation administrator by clicking the `Associate New Admin` button. Then one must enter the user ID of the new admin to associate them to the organisation in question. User ID's can be obtained from the [profile](https://uh-enterprise.com/profile) page in UH Enterprise.
 
-##### Removing an admin
+#### Removing an admin
 
 Existing admins can be removed at any time by clicking the ![admins](https://uh-enterprise.com/static/images/icons/trashcan.svg) next to an admin one wishes to remove. All access to the organisation for that admin will immediately be revoked.
 

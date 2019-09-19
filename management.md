@@ -2,6 +2,7 @@
 
 - [Overview](#the-website)
 - [Organisations](#organisations)
+- [Servers](#servers)
 
 ## Overview
 

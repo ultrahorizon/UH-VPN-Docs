@@ -24,7 +24,7 @@ Every UH Enterprise organisation contains a list of administrators that are auth
 
 #### Adding an admin
 
-New admins can be enrolled by any organisation administrator by clicking the `Associate New Admin` button. Then one must enter the user ID of the new admin to associate them to the organisation in question. User ID's can be obtained from the [profile](https://uh-enterprise.com/profile) page in UH Enterprise.
+New admins can be enrolled by any organisation administrator by clicking the **Associate New Admin** button. Then one must enter the user ID of the new admin to associate them to the organisation in question. User ID's can be obtained from the [profile](https://uh-enterprise.com/profile) page in UH Enterprise.
 
 #### Removing an admin
 
@@ -42,4 +42,33 @@ Every UH Enterprise organisation has a set of associated properties which includ
 
 These properties are editable at any time by clicking ![edit](https://uh-enterprise.com/static/images/icons/pencil.svg) next to any organisation one has access to.
 
+
+## Servers
+
+- [Server Management](#server-management)
+
+### Definition
+
+Servers within UH Enterprise are remote access VPN servers that are specific to a UH Enterprise organisation. All identities and profiles within an organisation have access to these servers and can connect to them at any time.
+
+### Server Management
+
+Every UH Enterprise server has a set of associated properties which include:
+
+- **Name:** The name of the server.
+- **Domain/IP Address:** Location of the server on the Internet (e.g. gbr.uh-net.com or 1.2.3.4). For dual-stack servers create A and AAAA DNS records. UH Enterprise will then automatically use the correct IP protocol based on the client environment.
+- **Port:** The logical IP port used for communication to the VPN server.
+- **CA Certificate:** The CA certificate is the certificate of the entity which signed the UH Enterprise server's certificate.
+- **Static TLS Key:** This is a 2048 bit static obfuscation key used to mask VPN traffic. This is **NOT** used for security purposes.
+- **UDP Flag:** This sets the transport protocol to UDP or TCP based on the checkbox state.
+
+These properties are editable at any time by clicking ![edit](https://uh-enterprise.com/static/images/icons/pencil.svg) next to any server one has access to. Changes to these options will then be dynamically pushed to UH Enterprise applications.
+
+#### Creating a server
+
+A server can be instantiated at any point by clicking the **Create New Server** button within any organisation one has access to. This will then prompt the admin to enter the details referenced in [Server Management](#server-management) above.
+
+#### Deleting a server
+
+Existing servers can be removed at any time by clicking the ![admins](https://uh-enterprise.com/static/images/icons/trashcan.svg) next to a server one wishes to remove. The server will be removed from all UH Enterprise profiles and the ability to select the server as a connection option in UH Enterprise applications will be removed.
 

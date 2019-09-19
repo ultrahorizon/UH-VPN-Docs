@@ -122,13 +122,29 @@ Existing identities can be deleted at any time by clicking the ![admins](https:/
 - [Profile Management](#profile-management)
 	- [Creating a profile](#creating-a-profile)
 	- [Deleting a profile](#deleting-a-profile)
+	- [Exporting a profile](#exporting-a-profile)
 
 ### Definition
 
+UH Enterprise profiles represent devices belonging to identities defined within an organisation. As such, profiles are immutable objects which grant access to an organisation's server and the deletion of a profile immediately revokes access to all organisation servers for that device.
 
 ### Profile Management
 
+Every UH Enterprise profile has a set of associated properties which include:
+
+- **Name:** The name of the profile which should reflect the type of device the profile is intended for (e.g. iPhone).
+- **Expiry Date:** The time at which the profile will be revoked by UH Enterprise servers and access to servers will no longer be permitted. This can be set to any date. Alternatively, this field can be left blank to generate a profile without an expiry date. 
+
+Profiles are immutable one-time objects. They cannot be altered once created. If alternations must be made, the profile must be deleted and a replacement created instead.
+
 #### Creating a profile
+
+A profile can be instantiated at any point by clicking the **Create New Profile** button under any identity within an organisation one has access to. This will then prompt the admin to enter the details referenced in [Profile Management](#profile-management) above.
 
 #### Deleting a profile
 
+Existing profiles can be deleted at any time by clicking the ![admins](https://uh-enterprise.com/static/images/icons/trashcan.svg) next to a profile one wishes to remove. The profile will be removed and access to all organisation servers for that device will immediately be revoked.
+
+#### Exporting a profile
+
+In the case that one wishes to export a profile for a more exotic operating system where UH Enterprise applications have not yet been ported, UH Enterprise offers a static export facility compatible with regular OpenVPN clients. By clicking the ![export](https://uh-enterprise.com/static/images/icons/cloud-download.svg) icon a prompt will appear enabling an admin to build a static profile for download. The admin can choose a server and whether to auto-add credentials into the profile. If the **Download** button is pressed a `zip` file is generated containing the newly generated static profile. Within this `zip` file is `README.txt` which explains how to set up the static profile on standard OpenVPN clients.

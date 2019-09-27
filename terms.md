@@ -55,7 +55,7 @@ In using our Services, you agree not to:
 - Attempt to compile, utilise, or distribute a list of IP addresses operated by Ultra Horizon in conjunction with the Service.
 - Use the Service for anything other than lawful purposes.
 
-## [License](#table-of-contents)
+## [Licence](#table-of-contents)
 
 Subject to your compliance with these Terms, Ultra Horizon grants to you a non-exclusive and limited license to download and use the Software. Modifying, distributing to unauthorised parties, reverse engineering, or otherwise using the Software in any way not expressly authorised by Ultra Horizon is strictly prohibited.
 

@@ -11,7 +11,7 @@ This privacy policy will help you understand how Ultra Horizon Ltd. (“**Ultra 
 - [General Information](#general-information)
 - [Personal Information](#personal-information)
 - [Connection Statistics](#connection-statistics)
-- [Jurisdiction and Applicable Law](#juristiction-and-applicable-law)
+- [Jurisdiction and Applicable Law](#jurisdiction-and-applicable-law)
 - [Information Related to Email Support](#information-related-to-email-support)
 - [Security Measures](#security-measures)
 - [Third-party Websites](#third-party-websites)

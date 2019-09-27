@@ -78,9 +78,11 @@ Should anyone try to compel Ultra Horizon to release retrospective user informat
 
 ## [Information Related to Email Support](#table-of-contents)
 
+In this section, the second person plural ("**you**", "**your**", "**yours**", or "**yourselves**") refers to the individual account holders on management interface.
+
 Ultra Horizon keeps records of any correspondence, questions, complaints, or compliments you submit to us through our Site or Services, along with our response. Depending on how you contact Ultra Horizon, we may collect any information that is listed on your account and any subsequent information you provide to us. Having full correspondence records enables our staff to provide the best possible customer support experience.
 
-We use one third-party platform for email support correspondence: Intercom. When you correspond with us using this platform, your correspondence records, including your name, email address, are stored in their systems. The platform utilise modern security practices and all our live chats are encrypted.
+We use one third-party platform for email support correspondence: Intercom (for the remainder of this section referred to as the English third person plural: "**they**", "**them**", "**their**", "**theirs**", or "**themselves**"). When you correspond with us using this platform, your correspondence records, including your name, email address, are stored in their systems. The platform utilise modern security practices and all our live chats are encrypted.
 
 ## [VPN Tunnel Monitoring](#table-of-contents)
 Ultra Horizon does not monitor or log any traffic being sent over the VPN tunnel.  The only time Ultra Horizon has knowledge of information regarding a connection is to authenticate users logging in to a server operated by an organisation.  These authentications are not logged by Ultra Horizon.
@@ -107,18 +109,18 @@ Even if a government were to physically seize a server, UH Enterprise endpoint, 
 
 ## [Third-party Websites](#table-of-contents)
 
-The websites operated by Ultra Horizon may contain links to external websites that do not fall under Ultra Horizon’s domain. Ultra Horizon is not responsible for the privacy practices or content of such external websites.
+The Websites operated by Ultra Horizon may contain links to external websites that do not fall under Ultra Horizon’s domain. Ultra Horizon is not responsible for the privacy practices or content of such external websites.
 
 ## [Consent and Age Restrictions](#table-of-contents)
 
-By using the Site, Content, Apps, Software, or Services, you agree to have your information handled as described in our [Terms of Service](/terms) and this Privacy Policy.
+By using the Website, Content, Apps, Software, or Services, you agree to have your information handled as described in our [Terms of Service](/terms) and this Privacy Policy.
 
 The Services are intended for adults aged 18 and above. If you believe your child has provided information to us, please let us know immediately.
 
 ## [Changes to the Privacy Policy](#table-of-contents)
 
-We may change our Privacy Policy from time to time, without prior notice to you, consistent with applicable privacy laws and principles. Your continued use of the website or services constitutes your acceptance of our Privacy Policy.
+We may change our Privacy Policy from time to time, without prior notice to you, consistent with applicable privacy laws and principles. Your continued use of the Website or Services constitutes your acceptance of our Privacy Policy.
 
 ## [Contacting Ultra Horizon](#table-of-contents)
 
-If you have any questions regarding our Privacy Policy and how we handle your information, please feel free to contact Ultra Horizon on the [contact page](https://ultra-horizon.com/contact) of the website or get in touch via [enquiries@ultra-horizon.com](mailto:enquiries@ultra-horizon.com).
+If you have any questions regarding our Privacy Policy and how we handle your information, please feel free to contact Ultra Horizon on the [contact page](https://ultra-horizon.com/contact) of the Website or get in touch via [enquiries@ultra-horizon.com](mailto:enquiries@ultra-horizon.com).

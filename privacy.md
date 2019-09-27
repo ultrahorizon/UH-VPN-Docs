@@ -51,7 +51,7 @@ The users are provided with a one-time password to their email address by the or
 
 No information is collected by Ultra Horizon about the app users.
 
-After a profile is synced, the secure token is used to request from Ultra Horizon, any revocation or server updates regarding the organisation.  All other interactions are then solely through the VPN connection directly to the organisation.
+After a profile is synced, the secure token is used to request from Ultra Horizon any updates pertaining to the profile, including revocation and server changes.  All other interactions are then solely through the VPN connection directly to the organisation's servers.
 
 ## [Aggregate information stored](#table-of-contents)
 
@@ -62,19 +62,20 @@ For users of our VPN applications, we collect practically no metadata on usage. 
 We’ve engineered our systems to categorically eliminate storage of sensitive data. We stand by our firm commitment to our customers’ privacy by not possessing any data related to a user’s online activities.
 
 ### App Data Collection
+
 We do not add any of our own telemetry or tracking to any UH Enterprise web or native apps.  Telemetry information including but not limited to installation/reviews/crash reports may be collected out of our control by third party app distribution platforms or operating systems.
 
-In the rare event that you experience a problem with a native UH Enterprise app, you may be asked if you wish to submit a bug report automatically which will send you to a pre-populated report on our issue tracker, provided by Github ([https://github.com/ultrahorizon/UH-Enterprise-Docs/issues/](https://github.com/ultrahorizon/UH-Enterprise-Docs/issues/)).  Pre-populated reports contain information about the platform that the app is on, the time of the crash, along with minimal critical debugging information that will allow us to identify the issue quickly.  No reports are ever sent automatically, and you can preview all information before it is sent.
+In the rare event that you experience a problem with a native UH Enterprise app, you may be asked if you wish to submit a bug report automatically which will send you to a pre-populated report on our [issue tracker](https://github.com/ultrahorizon/UH-Enterprise-Docs/issues/), provided by GitHub. Pre-populated reports contain information about the platform that the app is on, the time of the crash, along with minimal critical debugging information that will allow us to identify the issue quickly.  No reports are ever sent automatically, and you can preview all information before it is sent.
 
 ### Connection Statistics
+
 We ensure that we never log browsing history, traffic destination, data content, IP addresses, or DNS queries. Therefore:
 
- - We do not know which user ever accessed a particular website or service.
+ - We do not know whether a user ever accessed a particular website or service.
  - We do not know which user was connected to the secure network at a specific time or which UH Enterprise server IP addresses they used.
  - We do not know the set of original IP addresses of a user’s computer.
 
 Should anyone try to compel Ultra Horizon to release retrospective user information based on any of the above, **we cannot supply this information because the data doesn’t exist.**
-
 
 ## [Information Related to Email Support](#table-of-contents)
 
@@ -82,12 +83,13 @@ In this section, the second person plural ("**you**", "**your**", "**yours**", o
 
 Ultra Horizon keeps records of any correspondence, questions, complaints, or compliments you submit to us through our Site or Services, along with our response. Depending on how you contact Ultra Horizon, we may collect any information that is listed on your account and any subsequent information you provide to us. Having full correspondence records enables our staff to provide the best possible customer support experience.
 
-We use one third-party platform for email support correspondence: Intercom (for the remainder of this section referred to as the English third person plural: "**they**", "**them**", "**their**", "**theirs**", or "**themselves**"). When you correspond with us using this platform, your correspondence records, including your name, email address, are stored in their systems. The platform utilise modern security practices and all our live chats are encrypted.
+We use one third-party platform for email support correspondence: Intercom (for the remainder of this section referred to as the English third person plural: "**they**", "**them**", "**their**", "**theirs**", or "**themselves**"). When you correspond with us using this platform, your correspondence records, including your name, email address, are stored in their systems. The platform utilises modern security practices and all our live chats are encrypted.
 
 ## [VPN Tunnel Monitoring](#table-of-contents)
-Ultra Horizon does not monitor or log any traffic being sent over the VPN tunnel.  The only time Ultra Horizon has knowledge of information regarding a connection is to authenticate users logging in to a server operated by an organisation.  These authentications are not logged by Ultra Horizon.
 
-Once connected, the secure VPN tunnel is direct from the organisation to the user.  We do not have any access to the connections, nor can offer any guarantee about what happens to data upon arriving at the organisation.  Users should be familiar with an organisation and their operating procedures/privacy policy.
+Ultra Horizon does not monitor or log any traffic being sent over the VPN tunnel.  The only time Ultra Horizon has knowledge of information regarding a connection is to authenticate users logging into a server operated by an organisation.  These authentications are logged and submitted to the UH Enterprise management interface.
+
+Once connected, the secure VPN tunnel is direct from the organisation's server to the user.  We do not have any access to the connections, nor can offer any guarantee about what happens to data upon arriving at the organisation.  Users should be familiar with an organisation and their operating procedures/privacy policy and associated terms of service where applicable.
 
 ## [Jurisdiction and Applicable Law](#table-of-contents)
 
@@ -109,7 +111,7 @@ Even if a government were to physically seize a server, UH Enterprise endpoint, 
 
 ## [Third-party Websites](#table-of-contents)
 
-The Websites operated by Ultra Horizon may contain links to external websites that do not fall under Ultra Horizon’s domain. Ultra Horizon is not responsible for the privacy practices or content of such external websites.
+The websites operated by Ultra Horizon may contain links to external websites that do not fall under Ultra Horizon’s domain. Ultra Horizon is not responsible for the privacy practices or content of such external websites.
 
 ## [Consent and Age Restrictions](#table-of-contents)
 
@@ -123,4 +125,4 @@ We may change our Privacy Policy from time to time, without prior notice to you,
 
 ## [Contacting Ultra Horizon](#table-of-contents)
 
-If you have any questions regarding our Privacy Policy and how we handle your information, please feel free to contact Ultra Horizon on the [contact page](https://ultra-horizon.com/contact) of the Website or get in touch via [enquiries@ultra-horizon.com](mailto:enquiries@ultra-horizon.com).
+If you have any questions regarding our Privacy Policy and how we handle your information, please feel free to contact Ultra Horizon on the [contact page](https://ultra-horizon.com/contact) of the website or get in touch via [enquiries@ultra-horizon.com](mailto:enquiries@ultra-horizon.com).

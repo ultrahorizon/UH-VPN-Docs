@@ -17,10 +17,11 @@ By agreeing to these Terms, you are also agreeing to the [Privacy Policy](/priva
 - [Disclaimers](#disclaimers)
 - [Limitations of Liability](#limitations-of-liability)
 - [Indemnification](#indemnification)
+- [Choice of Law](#choice-of-law)
 
 ## [Acceptance](#table-of-contents)
 
-By accessing the Content or Services, you are agreeing on behalf of yourself or those you represent (“you”) to comply with and be legally bound by these Terms in their entirety. These Terms constitute a legally binding agreement (the “Agreement”) between you and Ultra Horizon. If you do not agree with any part of the Terms, you may not use our Services.
+By accessing the Content or Services, you are agreeing on behalf of yourself or those you represent (“**you**”) to comply with and be legally bound by these Terms in their entirety. These Terms constitute a legally binding agreement (the “**Agreement**”) between you and Ultra Horizon. If you do not agree with any part of the Terms, you may not use our Services.
 
 By creating an account for using our Services, you represent that you are at least eighteen (18) years of age or that you are a valid legal entity, and that the registration information you have provided is accurate and complete.
 
@@ -94,6 +95,7 @@ In no event will Ultra Horizon, its partners, affiliates, subsidiaries, members,
 ## [Indemnification](#table-of-contents)
 
 You agree to indemnify, defend, and hold harmless Ultra Horizon, its officers, directors, employees, members, partners, agents, and suppliers, and their respective affiliates, officers, directors, employees, members, shareholders, partners, and agents, from any and all claims and expenses, including attorneys’ fees, arising out of your use of the Content and Service, including but not limited to your violation of this Agreement. We may, at our sole discretion, assume the exclusive defence and control of any matter subject to indemnification by you. The assumption of such defence or control by us, however, shall not excuse any of your indemnity obligations.
-13. Choice of Law
+
+## [Choice of Law](#table-of-contents)
 
 This Agreement shall be governed by and construed in accordance with the laws of the United Kingdom, excluding its rules governing conflicts of law.

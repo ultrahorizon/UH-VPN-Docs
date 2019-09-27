@@ -23,15 +23,15 @@ This privacy policy will help you understand how Ultra Horizon Ltd. (“**Ultra 
 
 Ultra Horizon collects two types of information:
 
-#### (i) Information related to your account ("personal information")
+### (i) Information related to your account ("personal information")
 
 This information is only applicable if using the management interface at [https://uh-enterprise.com](https://uh-enterprise.com). For users, only utilising the functionality of UH Enterprise VPN applications, this paragraph is not applicable. 
 
 Information is simply collected for the purpose of administering your UH Enterprise subscription, and includes your name and email address which you submit when you sign up for our Services. 
 
-#### (ii) Aggregate Apps and UH Enterprise connection summary statistics
+### (ii) Aggregate Apps and UH Enterprise connection summary statistics
 
-Ultra Horizon collects minimal information about usage In order to maintain excellent customer support and quality of service. The section below describes in detail what specific information we collect. These statistics never include anything about what the user has done with the secure network connection: no data about the contents or destinations of traffic, no DNS queries, and no IP addresses.
+Ultra Horizon collects minimal information about usage in order to maintain excellent customer support and quality of service. The section below describes in detail what specific information we collect. These statistics never include anything about what the user has done with the secure network connection: no data about the contents or destinations of traffic, no DNS queries, and no IP addresses.
 
 ## [Personal Information](#table-of-contents)
 
@@ -49,7 +49,7 @@ We do not know the set of original IP addresses of a user’s computer.
 
 Should anyone try to compel Ultra Horizon to release user information based on any of the above, **we cannot supply this information because the data doesn’t exist.**
 
-Summary
+### Summary
 
 For users of our VPN applications, we collect practically no metadata on usage. Similarly, for management users we only store a name and email address to allow unique identification of a UH Enterprise subscription.
 

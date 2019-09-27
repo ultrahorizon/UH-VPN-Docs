@@ -39,19 +39,19 @@ Information is collected for the purpose of administering the UH Enterprise subs
 
 Information stored about the entity is for the purpose of maintaining the core UH Enterprise service, and includes the name, logo, one-time password expiry time and colour choices of the organisation.
 
-In addition to this, critical information to facilitate VPN connections to servers hosted by the entity are stored, including a name, domain/IP address, port number, CA certificate, TLS Key and protocol. 
+In addition to this, critical information to facilitate VPN connections to servers hosted by the entity are stored, including a name, domain/IP address, port number, CA certificate, static TLS Key and transport protocol. 
 
-Finally, information pertaining to abstract identities and profiles are kept by us.  Information related to the identity includes a string that represents a name for the identity, along with an email address to deliver one-time passwords to.  Information related to the profile includes a string that represents the name of the profile, along with an optional expiry date for the profile.  After generation of a profile and until consumption, a one-time password that is associated with an organisation, identity and profile is also stored.
+Finally, information pertaining to abstract identities and profiles are kept by us.  Information related to the identity includes a string that represents a name for the identity, along with an email address to deliver one-time passwords to.  Information related to the profile includes a string that represents the name of the profile, along with an optional expiry time for the profile.  After generation of a profile and until consumption, a one-time password that is associated with an organisation, identity and profile is also stored.
 
 ## [Information stored about the users](#table-of-contents)
 
 This section is only applicable to the users of the UH Enterprise native applications, be it on any mobile or desktop platform, and marks the return of the second person plural ("**you**", "**your**", "**yours**", or "**yourselves**") referring to the users.
 
-The users are provided with a one-time password to their email address by the organisation when assigned a profile.  The organisation will have specified an identifier for them which may or may not be their name, along with an identifier for the device that the one-time password is consume upon.  Once consumed, this one-time password is removed from the server and the profile is synced by use of a cryptographically signed token stored only on the users device.
+The users are provided with a one-time password to their email address by the organisation when assigned a profile.  The organisation will have specified an identifier for them which may or may not be their name, along with an identifier for the device that the one-time password is entered on.  Once consumed, this one-time password is removed from the server and the profile is synced by use of a cryptographically signed token stored only on the users device.
 
 No information is collected by Ultra Horizon about the app users.
 
-After a profile is synced, the secure token is used to request from Ultra Horizon,0 any revocation or server updates regarding the organisation.  All other interactions are then solely through the VPN connection directly to the organisation.
+After a profile is synced, the secure token is used to request from Ultra Horizon, any revocation or server updates regarding the organisation.  All other interactions are then solely through the VPN connection directly to the organisation.
 
 ## [Aggregate information stored](#table-of-contents)
 

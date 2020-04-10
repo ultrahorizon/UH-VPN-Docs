@@ -1,5 +1,5 @@
 
-# UH Enterprise Terms of Service
+# UH VPN Terms of Service
 
 This Terms of Service document (the “**Terms**”) outlines the terms and conditions of use of the secure network services (the “**Services**” or “**Service**”) provided by Ultra Horizon Ltd (“**Ultra Horizon**”). These Terms also govern the use of and access to Ultra Horizon’s content (the “**Content**”), which includes the Ultra Horizon website (the “**Site**”), applications (the “**Apps**”), and any software provided by Ultra Horizon (the “**Software**”).
 
@@ -31,9 +31,9 @@ Ultra Horizon may update the Terms from time to time without notice. If you cont
 
 ## [Privacy Policy](#table-of-contents)
 
-Ultra Horizon is committed to your privacy and does not collect browsing history, traffic destination, data content, or DNS queries from users connected to UH Enterprise. During your registration, we may collect some personal information, such as your name and email address. We only collect information that is necessary for the proper delivery of the Site and Services.
+Ultra Horizon is committed to your privacy and does not collect browsing history, traffic destination, data content, or DNS queries from users connected to UH VPN. During your registration, we may collect some personal information, such as your name and email address. We only collect information that is necessary for the proper delivery of the Site and Services.
 
-For the sake of clarity and transparency, we have placed all information related to data collection in a separate document known as the [Privacy Policy](/privacy), which is available on the UH Enterprise documentation hub. Please review the Privacy Policy in its entirety to get a clear understanding of how we handle your data.
+For the sake of clarity and transparency, we have placed all information related to data collection in a separate document known as the [Privacy Policy](/privacy), which is available on the UH VPN documentation hub. Please review the Privacy Policy in its entirety to get a clear understanding of how we handle your data.
 
 ## [Acceptable Use Policy](#table-of-contents)
 
@@ -74,7 +74,7 @@ Ultra Horizon may provide you with content belonging to Third Parties (“Third 
 
 We will strive to prevent interruptions to the Site and Services. However, these are provided on an “as-is” and “as-available” basis, and we do not warrant, either expressly or by implication, the accuracy of any materials or information provided through the Site or Service, or their suitability for any particular purpose. We expressly disclaim all warranties of any kind, whether express or implied, including but not limited to warranties of merchantability or fitness for a particular purpose, or non-infringement. We do not make any warranty that the Services will meet your requirements, or that it will be uninterrupted, timely, secure, or error-free, or that defects, if any, will be corrected. You acknowledge that you access the Site and Services at your sole risk and discretion.
 
-UH Enterprise service coverage, latency, and overall service quality may vary. Ultra Horizon will attempt to make the Service available at all times. However, the Service may be subject to unavailability for a variety of factors beyond our control, including but not limited to emergencies; third-party-service failures; or transmission, equipment, or network problems or limitations, interference, or signal strength; and may be interrupted, refused, limited, or curtailed. We are not responsible for data, messages, or pages lost, not delivered, delayed, or misdirected because of interruptions or performance issues with the Service, communications services, or networks. We may impose usage or Service limits, suspend Service, terminate UH Enterprise accounts, or block certain kinds of usage in our sole discretion to protect Subscribers or the Service. The accuracy and timeliness of data received is not guaranteed; delays or omissions may occur.
+UH VPN service coverage, latency, and overall service quality may vary. Ultra Horizon will attempt to make the Service available at all times. However, the Service may be subject to unavailability for a variety of factors beyond our control, including but not limited to emergencies; third-party-service failures; or transmission, equipment, or network problems or limitations, interference, or signal strength; and may be interrupted, refused, limited, or curtailed. We are not responsible for data, messages, or pages lost, not delivered, delayed, or misdirected because of interruptions or performance issues with the Service, communications services, or networks. We may impose usage or Service limits, suspend Service, terminate UH VPN accounts, or block certain kinds of usage in our sole discretion to protect Subscribers or the Service. The accuracy and timeliness of data received is not guaranteed; delays or omissions may occur.
 
 Ultra Horizon reserves the right to investigate matters we consider to be violations of these Terms. We may, but are not obligated to, in our sole discretion and without notice, remove, block, filter, or restrict by any means any materials or information that we consider to be actual or potential violations of the restrictions set forth in these Terms, and any other activities that may subject Ultra Horizon or our customers to liability. Ultra Horizon disclaims any and all liability for any failure on our part to prevent such materials or information from being transmitted over the Service and/or into your computing device.
 

@@ -1,8 +1,8 @@
-# UH Enterprise Privacy Policy
+# UH VPN Privacy Policy
 
 Ultra Horizon is committed to protecting your privacy. We want you to understand what information we collect, what we don’t collect, and how we collect, use, and store information. 
 
-**We do not collect logs relating to the organisation or users activity, including no logging of browsing history, traffic destination, data content, or DNS queries. We also never store connection logs, meaning no logs of your IP address, your outgoing UH Enterprise IP address, connection timestamp, or session duration.** This is fundamentally because the servers operating behind UH Enterprise are owned and controlled by user or organisation paying for the service.
+**We do not collect logs relating to the organisation or users activity, including no logging of browsing history, traffic destination, data content, or DNS queries. We also never store connection logs, meaning no logs of your IP address, your outgoing UH VPN IP address, connection timestamp, or session duration.** This is fundamentally because the servers operating behind UH VPN are owned and controlled by user or organisation paying for the service.
 
 Our guiding principle towards data collection is to only collect the minimal data required to operate a world-class secure network authorisation service at scale. We designed our systems to not have sensitive data about our customers; even when compelled we cannot provide data that we do not possess.
 
@@ -12,9 +12,9 @@ This privacy policy will help you understand how Ultra Horizon Ltd. collects, us
 
 In this privacy policy (up to and past this section), Ultra Horizon Ltd. will be referred to as “**Ultra Horizon**”, or the English first person plural: “**we**”, “**us**”, “**our**”, "**ours**", or "**ourselves**"
 
-UH Enterprise is a service that is provided to third party entities, which will be referred to as the "**entity**", "**organisation**", "**enterprise**", or (unless otherwise specified) English third person plural: "**they**", "**them**", "**their**", "**theirs**", or "**themselves**".
+UH VPN is a service that is provided to third party entities, which will be referred to as the "**entity**", "**organisation**", "**enterprise**", or (unless otherwise specified) English third person plural: "**they**", "**them**", "**their**", "**theirs**", or "**themselves**".
 
-The service provided by UH Enterprise to the organisation is for use by whoever they wish be it clients, employees or other relations.  These users will be referred to as the **users**, or (unless otherwise specified) English second person plural: "**you**", "**your**", "**yours**", or "**yourselves**".
+The service provided by UH VPN to the organisation is for use by whoever they wish be it clients, employees or other relations.  These users will be referred to as the **users**, or (unless otherwise specified) English second person plural: "**you**", "**your**", "**yours**", or "**yourselves**".
 
 ## Table of contents
 
@@ -33,11 +33,11 @@ The service provided by UH Enterprise to the organisation is for use by whoever 
 
 ## [Information stored about the organisation](#table-of-contents)
 
-This section is only applicable to the organisation and administrators making use of the management interface at [https://uh-enterprise.com](https://uh-enterprise.com).  In this section, the second person plural ("**you**", "**your**", "**yours**", or "**yourselves**") refers to the individual account holders on management interface.
+This section is only applicable to the organisation and administrators making use of the management interface at [https://uh-vpn.com](https://uh-vpn.com).  In this section, the second person plural ("**you**", "**your**", "**yours**", or "**yourselves**") refers to the individual account holders on management interface.
 
-Information is collected for the purpose of administering the UH Enterprise subscription owned by the entity, and includes your name and email address which you submit when you sign up for our Services.  This information is stored by our third party authentication provider, Auth0.  All interactions with Auth0 are done over encrypted connections.
+Information is collected for the purpose of administering the UH VPN subscription owned by the entity, and includes your name and email address which you submit when you sign up for our Services.  This information is stored by our third party authentication provider, Auth0.  All interactions with Auth0 are done over encrypted connections.
 
-Information stored about the entity is for the purpose of maintaining the core UH Enterprise service, and includes the name, logo, one-time password expiry time and colour choices of the organisation.
+Information stored about the entity is for the purpose of maintaining the core UH VPN service, and includes the name, logo, one-time password expiry time and colour choices of the organisation.
 
 In addition to this, critical information to facilitate VPN connections to servers hosted by the entity are stored, including a name, domain/IP address, port number, CA certificate, static TLS Key and transport protocol. 
 
@@ -45,7 +45,7 @@ Finally, information pertaining to abstract identities and profiles are kept by 
 
 ## [Information stored about the users](#table-of-contents)
 
-This section is only applicable to the users of the UH Enterprise native applications, be it on any mobile or desktop platform, and marks the return of the second person plural ("**you**", "**your**", "**yours**", or "**yourselves**") referring to the users.
+This section is only applicable to the users of the UH VPN native applications, be it on any mobile or desktop platform, and marks the return of the second person plural ("**you**", "**your**", "**yours**", or "**yourselves**") referring to the users.
 
 The users are provided with a one-time password to their email address by the organisation when assigned a profile.  The organisation will have specified an identifier for them which may or may not be their name, along with an identifier for the device that the one-time password is entered on.  Once consumed, this one-time password is removed from the server and the profile is synced by use of a cryptographically signed token stored only on the users device.
 
@@ -57,22 +57,22 @@ After a profile is synced, the secure token is used to request from Ultra Horizo
 
 Ultra Horizon collects minimal information about usage in order to maintain excellent customer support and quality of service. The section below describes in detail what specific information we collect. These statistics never include anything about what the user has done with the secure network connection: no data about the contents or destinations of traffic, no DNS queries, and no IP addresses.
 
-For users of our VPN applications, we collect practically no metadata on usage. Similarly, for management users we only store a name and email address to allow unique identification of a UH Enterprise subscription.
+For users of our VPN applications, we collect practically no metadata on usage. Similarly, for management users we only store a name and email address to allow unique identification of a UH VPN subscription.
 
 We’ve engineered our systems to categorically eliminate storage of sensitive data. We stand by our firm commitment to our customers’ privacy by not possessing any data related to a user’s online activities.
 
 ### App Data Collection
 
-We do not add any of our own telemetry or tracking to any UH Enterprise web or native apps.  Telemetry information including but not limited to installation/reviews/crash reports may be collected out of our control by third party app distribution platforms or operating systems.
+We do not add any of our own telemetry or tracking to any UH VPN web or native apps.  Telemetry information including but not limited to installation/reviews/crash reports may be collected out of our control by third party app distribution platforms or operating systems.
 
-In the rare event that you experience a problem with a native UH Enterprise app, you may be asked if you wish to submit a bug report automatically which will send you to a pre-populated report on our [issue tracker](https://github.com/ultrahorizon/UH-Enterprise-Docs/issues/), provided by GitHub. Pre-populated reports contain information about the platform that the app is on, the time of the crash, along with minimal critical debugging information that will allow us to identify the issue quickly.  No reports are ever sent automatically, and you can preview all information before it is sent.
+In the rare event that you experience a problem with a native UH VPN app, you may be asked if you wish to submit a bug report automatically which will send you to a pre-populated report on our [issue tracker](https://github.com/ultrahorizon/UH-VPN-Docs/issues/), provided by GitHub. Pre-populated reports contain information about the platform that the app is on, the time of the crash, along with minimal critical debugging information that will allow us to identify the issue quickly.  No reports are ever sent automatically, and you can preview all information before it is sent.
 
 ### Connection Statistics
 
 We ensure that we never log browsing history, traffic destination, data content, IP addresses, or DNS queries. Therefore:
 
  - We do not know whether a user ever accessed a particular website or service.
- - We do not know which user was connected to the secure network at a specific time or which UH Enterprise server IP addresses they used.
+ - We do not know which user was connected to the secure network at a specific time or which UH VPN server IP addresses they used.
  - We do not know the set of original IP addresses of a user’s computer.
 
 Should anyone try to compel Ultra Horizon to release retrospective user information based on any of the above, **we cannot supply this information because the data doesn’t exist.**
@@ -87,7 +87,7 @@ We use one third-party platform for email support correspondence: Intercom (for 
 
 ## [VPN Tunnel Monitoring](#table-of-contents)
 
-Ultra Horizon does not monitor or log any traffic being sent over the VPN tunnel.  The only time Ultra Horizon has knowledge of information regarding a connection is to authenticate users logging into a server operated by an organisation.  These authentications are logged and submitted to the UH Enterprise management interface.
+Ultra Horizon does not monitor or log any traffic being sent over the VPN tunnel.  The only time Ultra Horizon has knowledge of information regarding a connection is to authenticate users logging into a server operated by an organisation.  These authentications are logged and submitted to the UH VPN management interface.
 
 Once connected, the secure VPN tunnel is direct from the organisation's server to the user.  We do not have any access to the connections, nor can offer any guarantee about what happens to data upon arriving at the organisation.  Users should be familiar with an organisation and their operating procedures/privacy policy and associated terms of service where applicable.
 
@@ -107,7 +107,7 @@ Any profiles stored on a user's device are also encrypted and stored in the best
 
 While we believe these systems are robust, it is important to understand that no data security measures in the world can offer 100% protection.
 
-Even if a government were to physically seize a server, UH Enterprise endpoint, or user's device from us, the organisation or a user, there would be no logs or information that would tie any individual user to a particular event, website, or behaviour.
+Even if a government were to physically seize a server, UH VPN endpoint, or user's device from us, the organisation or a user, there would be no logs or information that would tie any individual user to a particular event, website, or behaviour.
 
 ## [Third-party Websites](#table-of-contents)
 

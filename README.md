@@ -1,6 +1,8 @@
 # UH VPN Docs
 Open-source issue tracker and documentation hub for [UH VPN](https://uh-vpn.com).
 
+[![Documentation Status](https://readthedocs.org/projects/uh-vpn/badge/?version=latest)](https://uh-vpn.readthedocs.io/en/latest/?badge=latest)
+
 #### This repository aims to accomplish three main tasks:
 
 1. Provide the ability for users to submit bug reports directly to UH VPN developers.

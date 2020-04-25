@@ -1,20 +1,16 @@
-.. UH VPN documentation master file, created by
-   sphinx-quickstart on Fri Apr 24 22:56:26 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+UH VPN Documentation
+====================
 
-Welcome to UH VPN's documentation!
-==================================
+The documentation, `maintained with the help of the community`_, offers
+instructions on how to install, configure, and use UH VPN software.
+Whether you are new to UH VPN, or a seasoned veteran, our docs
+offer something for everyone.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
+   website/index
+   servers/index
+   clients/index
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. _maintained with the help of the community: https://github.com/ultrahorizon/UH-VPN-Docs

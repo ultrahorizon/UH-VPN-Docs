@@ -17,5 +17,6 @@ facilitatescentralised administration for VPN servers and greatly reduces the co
     adding-servers
     removing-servers
     upgrading
+    logging
 
 .. _website: https://uh-vpn.com

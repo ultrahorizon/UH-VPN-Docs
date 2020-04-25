@@ -1,3 +1,3 @@
-Configuring Dynamic DNS
-=======================
+Removing Servers
+================
 

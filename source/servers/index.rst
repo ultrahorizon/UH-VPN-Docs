@@ -8,7 +8,7 @@ and the hosted machine running UH VPN Server software.
 
 Configuration for UH VPN Servers is done via the `website`_ and each server created is assigned an API token, these
 tokens are used by the server software to dynamically pull all configuration options from the UH VPN API. This
-facilitatescentralised administration for VPN servers and greatly reduces the complexity involved in VPN deployment.
+facilitates centralised administration for VPN servers and greatly reduces the complexity involved in VPN deployment.
 
 ..  toctree::
     :maxdepth: 1

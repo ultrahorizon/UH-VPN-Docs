@@ -18,7 +18,7 @@ from this newly added archive:
 
 .. code-block:: bash
 
-    $> sudo add-get update
+    $> sudo apt-get update
 
 Once this is done, UH VPN Server software can now be downloaded through the apt package manager.
 

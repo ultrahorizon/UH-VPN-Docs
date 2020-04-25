@@ -32,7 +32,11 @@ Once installed check that the UH VPN Service is running:
 
     $> sudo service uh-vpn-server status
 
-The output should say **active (running)**.
+The output should say **active (running)** as depicted below:
+
+.. image:: /_static/servers/service_status.png
+  :width: 600
+  :alt: Expected status
 
 If one desires UH VPN Server to start at boot, issue the following command:
 

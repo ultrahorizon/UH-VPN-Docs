@@ -1,5 +1,5 @@
-Removing Servers
-================
+Removing VPN Servers
+====================
 
 Removing servers cannot be done whilst the uh-vpn-server service is running. The service needs to be stopped, then
 the associated token removed from the token store in ``/etc/uh-vpn-server/tokens`` and then the service needs to be

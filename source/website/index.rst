@@ -3,9 +3,9 @@ Website
 *******
 
 ..  toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
-    devices/index
     groups/index
-    people/index
     servers/index
+    people/index
+    devices/index

@@ -5,10 +5,12 @@ Open-source issue tracker and documentation hub for [UH VPN](https://uh-vpn.com)
 
 #### This repository aims to accomplish three main tasks:
 
-1. Provide the ability for users to submit bug reports directly to UH VPN developers.
-2. Provide the ability for users to suggest new features and to upvote already suggested features for consideration in future updates to the service.
-3. Provide a thorough documentation platform to aid the use of UH Enterprise.
+1. Provide a thorough documentation platform to aid the use of UH VPN.
+2. Provide the ability for users to ask questions directly to UH VPN developers and the wider community.
+3. Provide the ability for users to submit bug reports directly to UH VPN developers.
+4. Provide the ability for users to suggest new features and to up-vote already suggested features for consideration in future updates to the service.
 
-## Submitting a report:
+## Submitting a question/bug/request:
 
-Head over to [issues](https://github.com/ultrahorizon/UH-VPN-Docs/issues) and create a new one by using one of the pre-made templates to describe your problem/suggestion. One of our developers will then comment or roll out a fix if applicable.
+Head over to [issues](https://github.com/ultrahorizon/UH-VPN-Docs/issues/new/choose) and create a new one by using one of the pre-made templates to describe your question/bug/request.
+Our development team aim to respond within two days.

@@ -1,7 +1,7 @@
-Updating Groups
-===============
+Editing Groups
+==============
 
-Groups can be updated at any point by clicking the |edit_icon| icon next to the appropriate
+Groups can be edited at any point by clicking the |edit_icon| icon next to the appropriate
 group in the `management page`_. After clicking, one is presented with a page similar to that
 of group creation, except fields are pre-filled.
 

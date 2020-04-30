@@ -15,7 +15,7 @@ even if administered through the same user account.
     :maxdepth: 1
 
     creating
-    updating
+    editing
     deleting
     admins
     billing

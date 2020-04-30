@@ -12,6 +12,6 @@ Any subscriptions tied to a deleted group will immediately cancel and a final bi
 taken at the end of the billing period.
 
 .. |delete_icon| image:: /_static/icons/trashcan.svg
-  :alt: Edit Icon
+  :alt: Delete Icon
 
 .. _management page: https://uh-vpn.com/manage

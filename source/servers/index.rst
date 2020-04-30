@@ -1,6 +1,6 @@
-***********
-VPN Servers
-***********
+***************
+Server Software
+***************
 
 UH VPN Server software runs on machines hosted by the end-user. This could be in a cloud or on-premise environment.
 This software is responsible for the VPN link which encrypts and authenticates data between client applications

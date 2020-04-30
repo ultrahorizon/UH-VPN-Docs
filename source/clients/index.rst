@@ -1,5 +1,5 @@
 ***********
-VPN Clients
+Client Apps
 ***********
 
 ..  toctree::

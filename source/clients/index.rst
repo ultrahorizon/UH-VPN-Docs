@@ -1,5 +1,5 @@
 *******
-Clients
+VPN Clients
 *******
 
 ..  toctree::

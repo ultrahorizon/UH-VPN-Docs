@@ -28,7 +28,7 @@ It is also possible to remove administrators from a group. To do so, one needs o
     It is not possible to remove oneself from the list of admins, as doing so could potentially
     leave the group with zero administrators.
 
-.. |settings_icon| image:: /_static/icons/settings.svg
+.. |settings_icon| image:: /_static/icons/gear.svg
   :alt: Edit Icon
 
 .. |delete_icon| image:: /_static/icons/trashcan.svg

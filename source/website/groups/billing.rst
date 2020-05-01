@@ -44,7 +44,7 @@ or to remedy any of the situations defined below:
 * A free group is already associated with the user account.
 
 
-.. |settings_icon| image:: /_static/icons/settings.svg
+.. |settings_icon| image:: /_static/icons/gear.svg
   :alt: Edit Icon
 
 .. _management page: https://uh-vpn.com/manage

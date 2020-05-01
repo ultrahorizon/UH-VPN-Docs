@@ -56,3 +56,6 @@ html_static_path = ['_static']
 
 # Don't show created using sphinx
 html_show_sphinx = False
+
+# Use custom favicon
+html_favicon = '_static/favicon.png'

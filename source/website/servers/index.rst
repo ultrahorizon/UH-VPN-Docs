@@ -17,5 +17,6 @@ configuration.
     creating
     editing
     deleting
+    api-tokens
 
 .. _website: https://uh-vpn.com

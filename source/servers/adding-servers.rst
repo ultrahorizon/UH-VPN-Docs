@@ -4,8 +4,9 @@ Adding VPN Servers
 It is possible to add servers whilst the uh-vpn-server service is running. To do so, one must update
 the token store in ``/etc/uh-vpn-server``.
 
-First, an API token for the relevant server must be obtained from the `website`_. Once this is done, it is
-necessary to append this token to the token store by following the steps outlined below:
+First, an API token for the relevant server must be obtained from the `website`_ by following the
+instructions for `obtaining API tokens`_. Once this is done, it is necessary to append this
+token to the token store by following the steps outlined below:
 
 .. code-block:: bash
 
@@ -40,4 +41,5 @@ configuration has been downloaded and installed:
   :alt: Token acceptance
 
 .. _website: https://uh-vpn.com
+.. _obtaining API tokens: ../website/servers/api-tokens.html
 

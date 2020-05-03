@@ -17,6 +17,12 @@ which can be downloaded for offline use.
     clients/index
     support
 
+..  toctree::
+    :hidden:
+
+    privacy
+    terms
+
 .. _maintained with the help of the community: https://github.com/ultrahorizon/UH-VPN-Docs
 .. _PDF: https://docs.uh-vpn.com/_/downloads/en/latest/pdf/
 .. _Epub: https://docs.uh-vpn.com/_/downloads/en/latest/epub/

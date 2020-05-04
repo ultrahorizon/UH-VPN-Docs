@@ -1,7 +1,7 @@
 Connecting and Disconnecting
 ============================
 
-Connecting and disconnecting from VPN networks is a very simple procedure. The app
+Connecting and disconnecting to/from VPN networks is a very simple procedure. The app
 is centred around a single connect/disconnect button to ensure this.
 
 .. image:: /_static/clients/android/main-screen.png

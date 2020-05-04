@@ -11,7 +11,7 @@ One will then be presented with a list of fields to fill in as follows:
   (OTPs) issued to devices expire. The default is one day.
 
 Premium Group Options
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 * **Group Logo** : PNG logo for the group that will be present on all mobile applications.
 * **Background Colour** : Background colour code for mobile applications.

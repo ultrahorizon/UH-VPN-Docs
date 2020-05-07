@@ -14,3 +14,30 @@ Open-source issue tracker and documentation hub for [UH VPN](https://uh-vpn.com)
 
 Head over to [issues](https://github.com/ultrahorizon/UH-VPN-Docs/issues/new/choose) and create a new one by using one of the pre-made templates to describe your question/bug/request.
 Our development team aim to respond within two days.
+
+## Building the docs locally
+
+- Clone the repo:
+
+```bash
+$> git clone git@github.com:ultrahorizon/UH-VPN-Docs.git
+```
+
+- Install a Python 3.7 virtualenv inside the root of the repository folder:
+
+```bash
+$> virtualenv --python=python3.7 .
+```
+
+- Install Python dependencies:
+
+```bash
+$> pip install -r requirements.txt
+```
+
+- Build the docs and view the output in the generated `build` directory:
+
+```bash
+$> make html
+```
+

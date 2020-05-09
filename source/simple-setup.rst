@@ -9,6 +9,9 @@ The guide uses the cloud provider `Digital Ocean`_ to create servers for UH VPN 
 ideal for beginners, but this can be substituted for any other cloud provider (AWS, Azure etc...)
 or an on-premise server if you have one.
 
+If you wish to explore UH VPN advanced options or modify the sample deployments consult the extensive
+documentation on this site.
+
 
 Step 1: Create a Digital Ocean Server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -54,7 +57,7 @@ all aspects of the droplet:
   :width: 600
   :alt: Droplet Overview Page
 
-Note down the IPv4 address of the droplet as we'll use this to SSH into the machine. Then click the networking
+Note down the IPv4 address of the droplet as we'll use this later on the UH VPN website. Then click the networking
 tab in the droplet overview page. Scroll to the bottom and under the firewalls section press the "Edit" button.
 
 .. image:: /_static/simple-setup/create-firewall.png
@@ -72,6 +75,10 @@ are defined to match the specification below:
   :width: 600
   :alt: Outbound Rules
 
+.. note::
+    If you are connecting to your instance via SSH, then also add rules to allow SSH connections to the
+    Droplet.
+
 Finally, ensure the firewall is associated to the droplet you created earlier. E.g. UH-VPN. Then
 press "Create Firewall". The Droplet is now firewalled against adversaries and ready for UH VPN.
 
@@ -87,9 +94,9 @@ are managed through this interface. The first step (if you haven't done so alrea
   :width: 600
   :alt: Create Group Page
 
-If you're using UH VPN for personal use, go ahead and click the "Free Plan" button, if you'd like
-access to advanced features such as custom app branding, unlimited devices and more, then choose
-premium. A breakdown of the options can be seen on the `Creating Groups`_ docs page.
+If you're just using UH VPN for personal use, go ahead and click the "Free Plan" button. However,
+if you'd like access to advanced features such as custom app branding, unlimited devices and more,
+then choose the premium plan. A breakdown of the options can be seen on the `Creating Groups`_ docs page.
 
 Choose an appropriate name for the group E.g. Personal and then leave the timeout set at 86400.
 Then press the "Submit" button and the group will be created.
@@ -148,6 +155,10 @@ The first step is to add Ultra Horizon's package archive to the system sources.
 .. code-block:: bash
 
     $> sudo add-apt-repository ppa:ultrahorizon/ppa
+
+.. image:: /_static/simple-setup/ppa-confirm.png
+  :width: 300
+  :alt: PPA Confirm
 
 A prompt will then display information about the repository, accept this, then download the package information
 from this newly added archive:
@@ -233,8 +244,8 @@ Enter the following parameters:
     A full description of all parameters can be found on the `device creation docs page`_.
 
 Press submit and the device will then be created. You will then receive an email with a one-time
-passcode (OTP). Download the UH VPN app for your platform and enter the one time code to download
-the profile. Then you can connect and enjoy a fast, secure and private VPN connection!
+passcode (OTP). Download the UH VPN app for your platform and enter the OTP code to download
+the profile. Then you can **connect and enjoy a fast, secure and private VPN connection!**
 
 .. tip::
     Instructions for client apps can be found on the `clients docs page`_.

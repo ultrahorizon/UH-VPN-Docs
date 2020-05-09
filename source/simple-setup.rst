@@ -12,6 +12,11 @@ or an on-premise server if you have one.
 If you wish to explore UH VPN advanced options or modify the sample deployments consult the extensive
 documentation on this site.
 
+- `Step 1: Create a Digital Ocean Server`_
+- `Step 2: Create a Server on the UH VPN Website`_
+- `Step 3: Setting up the Droplet with UH VPN`_
+- `Step 4: Installing Client Apps`_
+
 
 Step 1: Create a Digital Ocean Server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -50,7 +55,7 @@ appear:
   :width: 600
   :alt: Droplet Provisioning Page
 
-One the provisioning stage has completed, click on the droplet and one will be presented with a page detailing
+Once the provisioning stage has completed, click on the droplet and one will be presented with a page detailing
 all aspects of the droplet:
 
 .. image:: /_static/simple-setup/droplet-overview.png
@@ -157,7 +162,7 @@ The first step is to add Ultra Horizon's package archive to the system sources.
     $> sudo add-apt-repository ppa:ultrahorizon/ppa
 
 .. image:: /_static/simple-setup/ppa-confirm.png
-  :width: 300
+  :width: 500
   :alt: PPA Confirm
 
 A prompt will then display information about the repository, accept this, then download the package information
@@ -217,7 +222,7 @@ Step 4: Installing Client Apps
 
 This is the final step in the set up process. First login to the UH VPN `website`_ and navigate
 to the group you created earlier. Now it's time to make a new person who's authorised to access
-the VPN server you just created so click the "Create New Person" button and the following
+the VPN server you just created. Click the "Create New Person" button and the following
 page will be presented:
 
 .. image:: /_static/simple-setup/create-person.png
@@ -227,7 +232,7 @@ page will be presented:
 Enter your name and email address, then press submit and the person will then be created.
 
 Next it's time to associate a device to the person that's just been created. To do so, click the
-name of the person and then press the "Add New Device" button and the following page
+name of the person and then press the "Add new device" button and the following page
 will be presented:
 
 .. image:: /_static/simple-setup/create-device.png

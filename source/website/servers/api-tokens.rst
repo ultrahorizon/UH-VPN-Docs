@@ -12,7 +12,7 @@ be presented with a modal as shown below:
 
 One simply needs to copy the token (shown in pink) and either follow:
 
-- `UH VPN Setup Script`_ available if using our `Digital Ocean Image`_
+- `UH VPN Setup Script`_ available if using our `Digital Ocean Image`_.
 - `Adding servers`_ instructions in order to link the server software with the UH VPN API
   if using a vanilla Ubuntu installation.
 

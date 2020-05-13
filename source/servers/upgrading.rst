@@ -10,13 +10,13 @@ The first step is to update the package archives:
 
 .. code-block:: bash
 
-    $> sudo apt-get update
+    sudo apt-get update
 
 To upgrade just UH VPN Server software issue the command:
 
 .. code-block:: bash
 
-    $> sudo apt-get install uh-vpn-server
+    sudo apt-get install uh-vpn-server
 
 This will install any updates for the uh-vpn-server service or alert you if you are already
 on the latest version.
@@ -25,6 +25,6 @@ on the latest version.
 
 .. code-block:: bash
 
-    $> sudo apt-get upgrade
+    sudo apt-get upgrade
 
 However, doing so upgrades other packages already installed on the system.

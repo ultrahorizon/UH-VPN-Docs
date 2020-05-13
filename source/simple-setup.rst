@@ -159,7 +159,7 @@ The first step is to add Ultra Horizon's package archive to the system sources.
 
 .. code-block:: bash
 
-    $> sudo add-apt-repository ppa:ultrahorizon/ppa
+    sudo add-apt-repository ppa:ultrahorizon/ppa
 
 .. image:: /_static/simple-setup/ppa-confirm.png
   :width: 500
@@ -170,19 +170,19 @@ from this newly added archive:
 
 .. code-block:: bash
 
-    $> sudo apt-get update
+    sudo apt-get update
 
 Once this is done, UH VPN Server software can now be downloaded through the apt package manager.
 
 .. code-block:: bash
 
-    $> sudo apt-get install uh-vpn-server
+    sudo apt-get install uh-vpn-server
 
 Once installed check that the UH VPN Service is running:
 
 .. code-block:: bash
 
-    $> sudo service uh-vpn-server status
+    sudo service uh-vpn-server status
 
 The output should say **active (running)** as depicted below:
 
@@ -194,14 +194,14 @@ Then to ensure UH VPN Server starts at boot, issue the following command:
 
 .. code-block:: bash
 
-    $> sudo systemctl enable uh-vpn-server
+    sudo systemctl enable uh-vpn-server
 
 Next it's time to add the UH VPN Server API token we obtained earlier. This will
 enable the UH VPN Server software to set up the VPN server on our Droplet.
 
 .. code-block:: bash
 
-    $> sudo nano /etc/uh-vpn-server/tokens
+    sudo nano /etc/uh-vpn-server/tokens
 
 This will bring up an editor prompt like so:
 

@@ -20,24 +20,24 @@ Our development team aim to respond within two days.
 - Clone the repo:
 
 ```bash
-$> git clone git@github.com:ultrahorizon/UH-VPN-Docs.git
+git clone git@github.com:ultrahorizon/UH-VPN-Docs.git
 ```
 
 - Install a Python 3.7 virtualenv inside the root of the repository folder:
 
 ```bash
-$> virtualenv --python=python3.7 .
+virtualenv --python=python3.7 .
 ```
 
 - Install Python dependencies:
 
 ```bash
-$> pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 - Build the docs and view the output in the generated `build` directory:
 
 ```bash
-$> make html
+make html
 ```
 

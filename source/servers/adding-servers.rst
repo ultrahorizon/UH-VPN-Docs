@@ -10,7 +10,7 @@ token to the token store by following the steps outlined below:
 
 .. code-block:: bash
 
-    $> sudo nano /etc/uh-vpn-server/tokens
+    sudo nano /etc/uh-vpn-server/tokens
 
 This will bring up an editor prompt like so:
 
@@ -31,7 +31,7 @@ from the ``uh-vpn-server`` service daemon:
 
 .. code-block:: bash
 
-    $> tail /var/log/uh-vpn-server/daemon.log
+    tail /var/log/uh-vpn-server/daemon.log
 
 The last few lines of this output should acknowledge the new token and confirm that the associated
 configuration has been downloaded and installed:

@@ -11,26 +11,26 @@ The first step is to add Ultra Horizon's package archive to the system sources.
 
 .. code-block:: bash
 
-    $> sudo add-apt-repository ppa:ultrahorizon/ppa
+    sudo add-apt-repository ppa:ultrahorizon/ppa
 
 A prompt will then display information about the repository, accept this, then download the package information
 from this newly added archive:
 
 .. code-block:: bash
 
-    $> sudo apt-get update
+    sudo apt-get update
 
 Once this is done, UH VPN Server software can now be downloaded through the apt package manager.
 
 .. code-block:: bash
 
-    $> sudo apt-get install uh-vpn-server
+    sudo apt-get install uh-vpn-server
 
 Once installed check that the UH VPN Service is running:
 
 .. code-block:: bash
 
-    $> sudo service uh-vpn-server status
+    sudo service uh-vpn-server status
 
 The output should say **active (running)** as depicted below:
 
@@ -42,7 +42,7 @@ If one desires UH VPN Server to start at boot, issue the following command:
 
 .. code-block:: bash
 
-    $> sudo systemctl enable uh-vpn-server
+    sudo systemctl enable uh-vpn-server
 
 
 

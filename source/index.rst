@@ -12,10 +12,10 @@ which can be downloaded for offline use.
 ..  toctree::
     :maxdepth: 2
 
+    simple-setup
     website/index
     servers/index
     clients/index
-    simple-setup
     support
 
 .. _maintained with the help of the community: https://github.com/ultrahorizon/UH-VPN-Docs

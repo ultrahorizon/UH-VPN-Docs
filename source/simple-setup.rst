@@ -1,25 +1,21 @@
 Simple Setup Guide
 ==================
 
-This guide is a walkthrough tutorial on setting up UH VPN. It contains step by step instructions
-on how to provision a private cloud server along with all the necessary steps on setting up UH VPN
-client applications.
+This guide is a walkthrough tutorial on setting up UH VPN on `Digital Ocean`_. It contains step by step
+instructions on how to provision a private cloud server along with all the necessary steps on setting
+up UH VPN client applications.
 
-The guide uses the cloud provider `Digital Ocean`_ to create servers for UH VPN as it's simple and
-ideal for beginners, but this can be substituted for any other cloud provider (AWS, Azure etc...)
-or an on-premise server if you have one.
+The guide makes use of the "`1 Click App`_" available on Digital Ocean to create servers for UH VPN
+as this provisioning technique allows an entire UH VPN deployment to be set up in less than 5 minutes!
 
-If you wish to explore UH VPN advanced options or modify the sample deployments consult the extensive
-documentation on this site.
-
-- `Step 1: Create a Digital Ocean Server`_
+- `Step 1: Create a Digital Ocean Droplet`_
 - `Step 2: Create a Server on the UH VPN Website`_
-- `Step 3: Setting up the Droplet with UH VPN`_
+- `Step 3: Configuring the Droplet`_
 - `Step 4: Installing Client Apps`_
 
 
-Step 1: Create a Digital Ocean Server
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 1: Create a Digital Ocean Droplet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 First create an account or login at: `Digital Ocean`_. Then click the "Create Droplets" button as shown in
 the screenshot below:
@@ -34,15 +30,21 @@ One is then presented with a droplet creation page as follows:
   :width: 600
   :alt: Droplet Creation Page
 
+Press the "Marketplace" tab and search for "UH VPN". Once selected, a UH VPN image will
+be chosen:
+
+.. image:: /_static/simple-setup/marketplace-tab.png
+  :width: 600
+  :alt: Marketplace Tab
+
 Ensure the settings are selected as shown below:
 
-- **Distribution** : Ubuntu 18.04
 - **Plan** : Standard
 - **Price** : $5 per month
 - **Region** : Choose location closest to you unless you have a specific requirement
 - **VPC** : No VPC
 - **Additional Options** : None
-- **SSH Key** : Select one-time password unless you're familiar with SSH (if so upload your public key).
+- **SSH Key** : Select your SSH key.
 - **Number of Droplets** : 1
 - **Hostname** : Any friendly name you'd like to give to your server. E.g. "UH-VPN".
 - **Tags** : None
@@ -79,10 +81,6 @@ are defined to match the specification below:
 .. image:: /_static/simple-setup/outbound-rules.png
   :width: 600
   :alt: Outbound Rules
-
-.. note::
-    If you are connecting to your instance via SSH, then also add rules to allow SSH connections to the
-    Droplet.
 
 Finally, ensure the firewall is associated to the droplet you created earlier. E.g. UH-VPN. Then
 press "Create Firewall". The Droplet is now firewalled against adversaries and ready for UH VPN.
@@ -140,82 +138,30 @@ Press submit and the server will then be created.
 Once created, press the |key_icon| icon to obtain a UH VPN API token for the server. Copy
 and paste this to somewhere safe as it'll be used later.
 
-Step 3: Setting up the Droplet with UH VPN
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3: Configuring the Droplet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you configured the droplet earlier using SSH keys then SSH into your droplet now, otherwise
-head over to `Digital Ocean`_. Then click on the droplet you created earlier, click the "Access" Tab
-and press the "Launch Console" button. A popup will display:
+Login to the newly created droplet via SSH using the username "root". Once logged in, a UH VPN
+setup script will appear:
 
-.. image:: /_static/simple-setup/console-popup.png
-  :width: 300
-  :alt: Console Popup
+.. image:: /_static/simple-setup/setup-wizard.png
+  :width: 400
+  :alt: Setup Wizard
 
-Login to the droplet using the username "root" and the password emailed to you by Digital Ocean.
-If you didn't set up the droplet with SSH, you'll be asked to set a password when first logging
-in.
+Simply paste the UH VPN API token obtained in step 2 into the prompt and press Enter:
 
-The first step is to add Ultra Horizon's package archive to the system sources.
+.. image:: /_static/simple-setup/prompt.png
+  :width: 450
+  :alt: Prompt
 
-.. code-block:: bash
+Only one token is going to be added as we only wish to associate one server to this droplet, so
+answer with "n":
 
-    sudo add-apt-repository ppa:ultrahorizon/ppa
+.. image:: /_static/simple-setup/complete.png
+  :width: 450
+  :alt: Complete
 
-.. image:: /_static/simple-setup/ppa-confirm.png
-  :width: 500
-  :alt: PPA Confirm
-
-A prompt will then display information about the repository, accept this, then download the package information
-from this newly added archive:
-
-.. code-block:: bash
-
-    sudo apt-get update
-
-Once this is done, UH VPN Server software can now be downloaded through the apt package manager.
-
-.. code-block:: bash
-
-    sudo apt-get install uh-vpn-server
-
-Once installed check that the UH VPN Service is running:
-
-.. code-block:: bash
-
-    sudo service uh-vpn-server status
-
-The output should say **active (running)** as depicted below:
-
-.. image:: /_static/servers/service_status.png
-  :width: 600
-  :alt: Expected status
-
-Then to ensure UH VPN Server starts at boot, issue the following command:
-
-.. code-block:: bash
-
-    sudo systemctl enable uh-vpn-server
-
-Next it's time to add the UH VPN Server API token we obtained earlier. This will
-enable the UH VPN Server software to set up the VPN server on our Droplet.
-
-.. code-block:: bash
-
-    sudo nano /etc/uh-vpn-server/tokens
-
-This will bring up an editor prompt like so:
-
-.. image:: /_static/servers/token_store.png
-  :width: 600
-  :alt: Token store
-
-In this example, the token (``0123456...``) has been appended to the file. Once this is done,
-save the file and exit the editor (Ctrl-X in nano).
-
-The server is now configured and it's safe to logout of the Droplet.
-
-.. note::
-    For advanced configurations of the server software follow the `server documentation`_.
+The droplet is now successfully configured and ready to accept UH VPN connections!
 
 Step 4: Installing Client Apps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -256,14 +202,13 @@ the profile. Then you can **connect and enjoy a fast, secure and private VPN con
     Instructions for client apps can be found on the `clients docs page`_.
 
 
+.. _1 Click App: https://marketplace.digitalocean.com/apps/uh-vpn
 .. _Digital Ocean: https://www.digitalocean.com/
-.. _installation instructions: servers/installation.html
 .. _website: https://uh-vpn.com
 .. _create an account: https://uh-vpn.com/auth/signup
 .. _Creating Groups: website/groups/creating.html
 .. _server creation docs page: website/servers/creating.html
 .. |key_icon| image:: /_static/icons/key.svg
   :alt: Key Icon
-.. _server documentation: servers/index.html
 .. _device creation docs page: website/devices/creating.html
 .. _clients docs page: clients/index.html

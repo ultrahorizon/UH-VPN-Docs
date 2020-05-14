@@ -98,8 +98,9 @@ are managed through this interface. The first step (if you haven't done so alrea
   :alt: Create Group Page
 
 If you're just using UH VPN for personal use, go ahead and click the "Free Plan" button. However,
-if you'd like access to advanced features such as custom app branding, unlimited devices and more,
-then choose the premium plan. A breakdown of the options can be seen on the `Creating Groups`_ docs page.
+if you'd like access to advanced features such as custom app branding, unlimited devices and advanced
+VPN options, then choose the premium plan. A breakdown of the options can be seen on the
+`Creating Groups`_ docs page.
 
 Choose an appropriate name for the group E.g. Personal and then leave the timeout set at 86400.
 Then press the "Submit" button and the group will be created.

@@ -1,5 +1,5 @@
-Simple Setup Guide
-==================
+Digital Ocean Simple Setup Guide
+================================
 
 This guide is a walkthrough tutorial on setting up UH VPN on `Digital Ocean`_. It contains step by step
 instructions on how to provision a private cloud server along with all the necessary steps on setting
@@ -20,20 +20,20 @@ Step 1: Create a Digital Ocean Droplet
 First create an account or login at: `Digital Ocean`_. Then click the "Create Droplets" button as shown in
 the screenshot below:
 
-.. image:: /_static/simple-setup/do-landing.png
+.. image:: /_static/setup-guides/do-landing.png
   :width: 600
   :alt: DO Landing Page
 
 One is then presented with a droplet creation page as follows:
 
-.. image:: /_static/simple-setup/droplet-creation.png
+.. image:: /_static/setup-guides/droplet-creation.png
   :width: 600
   :alt: Droplet Creation Page
 
 Press the "Marketplace" tab and search for "UH VPN". Once selected, a UH VPN image will
 be chosen:
 
-.. image:: /_static/simple-setup/marketplace-tab.png
+.. image:: /_static/setup-guides/marketplace-tab.png
   :width: 600
   :alt: Marketplace Tab
 
@@ -53,32 +53,32 @@ Ensure the settings are selected as shown below:
 Then press create! The droplet will then begin provisioning and a page similar to the one shown below will
 appear:
 
-.. image:: /_static/simple-setup/droplet-provision.png
+.. image:: /_static/setup-guides/droplet-provision.png
   :width: 600
   :alt: Droplet Provisioning Page
 
 Once the provisioning stage has completed, click on the droplet and one will be presented with a page detailing
 all aspects of the droplet:
 
-.. image:: /_static/simple-setup/droplet-overview.png
+.. image:: /_static/setup-guides/droplet-overview.png
   :width: 600
   :alt: Droplet Overview Page
 
 Note down the IPv4 address of the droplet as we'll use this later on the UH VPN website. Then click the networking
 tab in the droplet overview page. Scroll to the bottom and under the firewalls section press the "Edit" button.
 
-.. image:: /_static/simple-setup/create-firewall.png
+.. image:: /_static/setup-guides/create-firewall.png
   :width: 600
   :alt: Firewall Creation Page
 
 Press the create button, choose a name for the firewall E.g. UH-VPN-Firewall, then ensure the rules
 are defined to match the specification below:
 
-.. image:: /_static/simple-setup/inbound-rules.png
+.. image:: /_static/setup-guides/inbound-rules.png
   :width: 600
   :alt: Inbound Rules
 
-.. image:: /_static/simple-setup/outbound-rules.png
+.. image:: /_static/setup-guides/outbound-rules.png
   :width: 600
   :alt: Outbound Rules
 
@@ -93,7 +93,7 @@ are managed through this interface. The first step (if you haven't done so alrea
 `create an account`_. Then once logged in, click the management tab and then press the
 "Create New Group" button. One is then presented with the following page:
 
-.. image:: /_static/simple-setup/create-group.png
+.. image:: /_static/setup-guides/create-group.png
   :width: 600
   :alt: Create Group Page
 
@@ -107,14 +107,14 @@ Then press the "Submit" button and the group will be created.
 
 Click on the group name that has just been created and the following page will be presented:
 
-.. image:: /_static/simple-setup/group-page.png
+.. image:: /_static/setup-guides/group-page.png
   :width: 600
   :alt: Group Page
 
 The first step is to create a UH VPN server, click the "Create New Server" button and the following
 page will be presented:
 
-.. image:: /_static/simple-setup/create-server.png
+.. image:: /_static/setup-guides/create-server.png
   :width: 600
   :alt: Create New Server
 
@@ -145,20 +145,20 @@ Step 3: Configuring the Droplet
 Login to the newly created droplet via SSH using the username "root". Once logged in, a UH VPN
 setup script will appear:
 
-.. image:: /_static/simple-setup/setup-wizard.png
+.. image:: /_static/setup-guides/setup-wizard.png
   :width: 400
   :alt: Setup Wizard
 
 Simply paste the UH VPN API token obtained in step 2 into the prompt and press Enter:
 
-.. image:: /_static/simple-setup/prompt.png
+.. image:: /_static/setup-guides/prompt.png
   :width: 450
   :alt: Prompt
 
 Only one token is going to be added as we only wish to associate one server to this droplet, so
 answer with "n":
 
-.. image:: /_static/simple-setup/complete.png
+.. image:: /_static/setup-guides/complete.png
   :width: 450
   :alt: Complete
 
@@ -172,7 +172,7 @@ to the group you created earlier. Now it's time to make a new person who's autho
 the VPN server you just created. Click the "Create New Person" button and the following
 page will be presented:
 
-.. image:: /_static/simple-setup/create-person.png
+.. image:: /_static/setup-guides/create-person.png
   :width: 600
   :alt: Create New Person
 
@@ -182,7 +182,7 @@ Next it's time to associate a device to the person that's just been created. To 
 name of the person and then press the "Add new device" button and the following page
 will be presented:
 
-.. image:: /_static/simple-setup/create-device.png
+.. image:: /_static/setup-guides/create-device.png
   :width: 600
   :alt: Create New Device
 

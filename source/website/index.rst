@@ -1,6 +1,6 @@
-*******
-Website
-*******
+**************
+VPN Management
+**************
 
 The UH VPN `website`_ acts as the command and control centre for all UH VPN deployments.
 UH VPN clients and servers rely on the availability of this site to provide functionality

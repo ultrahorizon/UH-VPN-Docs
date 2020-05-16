@@ -21,3 +21,4 @@ a secure connection.
     ios/index
     macos/index
     windows/index
+    linux/index

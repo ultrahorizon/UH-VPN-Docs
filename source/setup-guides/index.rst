@@ -8,6 +8,8 @@ to suit any particular need.
 If more information about a particular feature is required whilst reading the setup guides, the extensive
 documentation on this site details all aspects of UH VPN to cater for more advanced use cases.
 
-.. toctree::
+..  toctree::
+    :maxdepth: 2
+
     Digital Ocean (Very Easy) <digital-ocean/index>
     Ubuntu (Easy) <ubuntu>

@@ -2,8 +2,8 @@ Digital Ocean Private Networks
 ==============================
 
 Digital Ocean has the ability to allow Droplets to communicate over a private network. Digital Ocean
-does this over a separate interface ``eth1``. In order to use this interface and allow UH VPN
-clients to reach Droplets over the private network, some ``iptables`` rules need to be added.
+does this over a separate interface. In order to use this interface and allow UH VPN
+clients to reach Droplets over the private network, ``iptables`` rules need to be added.
 
 Step 1: Determine the private subnet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

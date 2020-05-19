@@ -21,7 +21,7 @@ Step 2: Add iptables rules
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Digital Ocean uses a separate interface for private networking and so the default NAT rule inserted
-by the UH VPN server does not cater for the private subnet. To rectify this one must first SSH into
+by the UH VPN server does not cover the private subnet. To rectify this one must first SSH into
 the Droplet and determine the interface used for the private network by executing the command:
 
 .. code-block:: bash

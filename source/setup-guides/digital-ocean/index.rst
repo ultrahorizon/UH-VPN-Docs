@@ -212,8 +212,7 @@ with advanced features of Digital Ocean. If you don't have a specific need for o
 guides, then please ignore.
 
 .. toctree::
-
-    setup-guides/digital-ocean/private-network
+    private-network
 
 
 .. _1 Click App: https://marketplace.digitalocean.com/apps/uh-vpn

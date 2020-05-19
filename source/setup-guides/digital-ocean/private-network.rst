@@ -96,13 +96,15 @@ This can be easily accomplished via UH VPN's custom IP routing (a premium plan f
 functionality head over to the `website`_ and within the relevant group click the |edit_icon|
 next to the server in question.
 
-Ensure that both buttons, "Redirect all IPv4 Traffic" and "Redirect all IPv6 Traffic" are switched off,
+Ensure that both switches, "Redirect all IPv4 Traffic" and "Redirect all IPv6 Traffic" are switched off,
 then proceed to add your Digital Ocean private network into IPv4 selection box and leave the IPv6
 selection box blank:
 
 .. image:: /_static/setup-guides/custom-routing.png
   :width: 600
   :alt: Custom Routing
+
+Turn off the "Add NAT Rule" switch.
 
 Then save the server. Once this is done, connecting clients will only be pushed the routes for the Digital
 

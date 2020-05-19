@@ -9,7 +9,7 @@ If more information about a particular feature is required whilst reading the se
 documentation on this site details all aspects of UH VPN to cater for more advanced use cases.
 
 ..  toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     Digital Ocean (Very Easy) <digital-ocean/index>
     Ubuntu (Easy) <ubuntu>

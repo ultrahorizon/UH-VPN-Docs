@@ -89,6 +89,31 @@ server is booted. Then finally make sure the script is executable:
     It is imperative that you update this rule in ``/etc/rc.local`` if you change the tunnel
     network in the UH VPN Server settings.
 
+Premium Enhancements
+~~~~~~~~~~~~~~~~~~~~
+
+It is quite common for cloud users to only want traffic destined for the Digital Ocean private
+network to be routed over the VPN instead of their entire Internet connection. This is to avoid
+extra charges from Digital Ocean if bandwidth/data exceeds the monthly allowance.
+
+This can be easily accomplished via UH VPN's custom IP routing (a premium plan feature). To enable this
+functionality head over to the `website`_ and within the relevant group click the |edit_icon|
+next to the server in question.
+
+Ensure that both switches, "Redirect all IPv4 Traffic" and "Redirect all IPv6 Traffic" are switched off,
+then proceed to add your Digital Ocean private network into IPv4 selection box and leave the IPv6
+selection box blank. In addition, leave the "DNS Servers" field blank unless you wish to send DNS
+traffic to an IP on the Digital Ocean private network:
+
+.. image:: /_static/setup-guides/custom-routing.png
+  :width: 600
+  :alt: Custom Routing
+
+Turn off the "Add NAT Rule" switch.
+
+Then save the server. Once this is done, connecting clients will only be pushed the routes for
+the Digital Ocean private network.
+
 .. _Digital Ocean: https://www.digitalocean.com/
 .. _website: https://uh-vpn.com
 .. |edit_icon| image:: /_static/icons/pencil.svg

@@ -9,7 +9,7 @@ Step 1: Determine the private subnet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 First login to the `Digital Ocean`_ control panel navigate to a Droplet using private networking,
-click on the "Networking" tab and scroll down to the "Private Networking" section:
+click on the "Networking" or "VPC" tab and scroll down to the "Private Networking" section:
 
 .. image:: /_static/setup-guides/private-network.png
   :width: 600

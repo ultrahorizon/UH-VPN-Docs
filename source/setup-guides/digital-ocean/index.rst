@@ -86,6 +86,10 @@ are defined to match the specification below:
 Finally, ensure the firewall is associated to the droplet you created earlier. E.g. UH-VPN. Then
 press "Create Firewall". The Droplet is now firewalled against adversaries and ready for UH VPN.
 
+.. note::
+    TCP 2802 must be open on the inbound firewall rules as this is used by the UH VPN API to push server config
+    updates.
+
 Step 2: Create a Server on the UH VPN Website
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

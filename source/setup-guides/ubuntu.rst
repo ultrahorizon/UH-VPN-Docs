@@ -26,8 +26,9 @@ Step 1: Satisfying prerequisites
 1. Note down the public IPv4 address of the Ubuntu machine. This IP address needs to point directly
    at the Ubuntu machine and not at a router or intermediate gateway.
 
-2. Ensure that port ``UDP 443`` is open on your Ubuntu instance if a firewall is configured.
-   This guide will set up UH VPN clients to connect over ``UDP 443`` so this port must be open.
+2. Ensure that the ports ``UDP 443`` and ``TCP 2802`` are open on your Ubuntu instance if a firewall is configured.
+   This guide will set up UH VPN clients to connect over ``UDP 443`` so this port must be open. Server configuration
+   updates are pushed over ``TCP 2802`` by the UH VPN API so this port must also be open.
 
 3. Ensure that either an SSH connection or console access to the machine is available.
 

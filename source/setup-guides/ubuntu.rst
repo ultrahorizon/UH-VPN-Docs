@@ -89,8 +89,16 @@ and paste this to somewhere safe as it'll be used later.
 Step 3: Configuring the Ubuntu Server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Now it's time to SSH into the Ubuntu Server. The first step is to add Ultra Horizon's
-package archive to the system sources:
+Now it's time to SSH into the Ubuntu Server.
+
+The first step is to install the required dependencies:
+
+.. code-block:: bash
+
+    sudo apt-get update
+    sudo apt-get install net-tools software-properties-common
+
+Then it's time to add Ultra Horizon's package archive to the system sources:
 
 .. code-block:: bash
 

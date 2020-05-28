@@ -1,7 +1,7 @@
 UH VPN Terms of Service
 =======================
 
-This Terms of Service document (the “**Terms**”) outlines the terms and conditions of use of the secure network services (the “**Services**” or “**Service**”) provided by Ultra Horizon Ltd (“**Ultra Horizon**”). These Terms also govern the use of and access to Ultra Horizon’s content (the “**Content**”), which includes the Ultra Horizon website (the “**Site**”), applications (the “**Apps**”), and any software provided by Ultra Horizon (the “**Software**”).
+This Terms of Service document (the “**Terms**”) outlines the terms and conditions of use of the secure network services (the “**Services**” or “**Service**”) provided by Ultra Horizon Ltd (“**Ultra Horizon**”). These Terms also govern the use of and access to Ultra Horizon’s content (the “**Content**”), which includes the Ultra Horizon/UH VPN website (the “**Site**”), applications (the “**Apps**”), and any software provided by Ultra Horizon (the “**Software**”).
 
 By agreeing to these Terms, you are also agreeing to the `Privacy Policy`_ (“**Privacy Policy**”).
 

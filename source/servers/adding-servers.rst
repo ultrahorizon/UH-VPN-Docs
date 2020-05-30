@@ -26,6 +26,12 @@ save the file and exit the editor (Ctrl-X in nano).
     VPN servers at once. However, one must ensure that servers don't share the same socket
     (port + protocol) or the same tunnel network if running on the same machine.
 
+Now the server simply needs to be restarted in order to detect the new token:
+
+.. code-block:: bash
+
+    sudo service uh-vpn-server restart
+
 It is possible to confirm the acceptance of a new token by viewing the last few lines of output
 from the ``uh-vpn-server`` service daemon:
 

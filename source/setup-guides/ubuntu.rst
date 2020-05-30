@@ -156,6 +156,12 @@ This will bring up an editor prompt like so:
 In this example, the token (``0123456...``) has been appended to the file. Once this is done,
 save the file and exit the editor (Ctrl-X in nano).
 
+Now the server simply needs to be restarted in order to detect the new token:
+
+.. code-block:: bash
+
+    sudo service uh-vpn-server restart
+
 The server is now configured and ready to accept incoming VPN connections!
 
 .. note::

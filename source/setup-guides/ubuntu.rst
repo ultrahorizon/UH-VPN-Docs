@@ -97,7 +97,7 @@ The first step is to install the required dependencies:
 .. code-block:: bash
 
     sudo apt-get update
-    sudo apt-get install net-tools software-properties-common
+    sudo apt-get install software-properties-common
 
 Then it's time to add Ultra Horizon's package archive to the system sources:
 

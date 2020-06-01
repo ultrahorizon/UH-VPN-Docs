@@ -73,6 +73,11 @@ Language and Translation of Content
 
 All of our Content was originally written in English. Any translation of our Content is done on a best-effort basis. We cannot guarantee the accuracy of translated Content. In the event of any discrepancy between the translated Content and the English Content, the English Content shall prevail.
 
+Payments
+~~~~~~~~
+
+If you are a premium customer you will be billed monthly at the rate of £1 +VAT per device. Device usage calculation is done via the maximum number of devices used within the billing period. Billing is handled via our payment partner, Stripe. Failed payments will freeze all VPN operations for a group until billing information is updated. If you delete a group during a billing cycle, you acknowledge that you will be billed immediately with no proration for the amount of devices used during the current billing month.
+
 Third-party Websites
 ~~~~~~~~~~~~~~~~~~~~
 

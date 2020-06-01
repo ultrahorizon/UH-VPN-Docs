@@ -3,15 +3,26 @@ Installation
 
 UH VPN Server software demands the following prerequisites:
 
-* **OS**: Ubuntu 18.04
+* **OS**: Ubuntu 18.04, 19.10, 20.04 or 20.10
 * **RAM**: 100MB (1GB preferable)
 * **Network**: Machine accessible either by public IP address, hostname or dynamic DNS.
 
-The first step is to add Ultra Horizon's package archive to the system sources.
+The first step is to install the required dependencies:
+
+.. code-block:: bash
+
+    sudo apt-get update
+    sudo apt-get install software-properties-common
+
+Then it's time to add Ultra Horizon's package archive to the system sources:
 
 .. code-block:: bash
 
     sudo add-apt-repository ppa:ultrahorizon/ppa
+
+.. image:: /_static/setup-guides/ppa-confirm.png
+  :width: 500
+  :alt: PPA Confirm
 
 A prompt will then display information about the repository, accept this, then download the package information
 from this newly added archive:
@@ -43,6 +54,3 @@ If one desires UH VPN Server to start at boot, issue the following command:
 .. code-block:: bash
 
     sudo systemctl enable uh-vpn-server
-
-
-

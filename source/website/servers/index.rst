@@ -19,4 +19,13 @@ configuration.
     deleting
     api-tokens
 
+Advanced server tutorials
+
+..  toctree::
+    :maxdepth: 1
+
+    dualstack
+    custom-crypto
+    split-routing
+
 .. _website: https://uh-vpn.com

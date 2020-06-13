@@ -20,6 +20,7 @@ configuration.
     api-tokens
 
 Advanced server tutorials
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ..  toctree::
     :maxdepth: 1

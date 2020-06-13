@@ -9,9 +9,9 @@ In order to enable dualstack operation it is imperative that the following prere
   applicable to your geographical area. E.g. RIPE, ARIN and so on. From this subnet you must choose a /64 subnet as
   the IPv6 tunnel network.
 * **IPv6 Routing**: The entire IPv6 /64 subnet used as the IPv6 tunnel network must be routed to your VPN server.
-  For example, if your VPN server has the public facing IPv6 address of 2000::1/32 and you plan to use the subnet of
-  2000:0000:0000:0001::/64 as your tunnel network, you must have a route marking 2000::1/32 as the next hop address for
-  the subnet 2000:0000:0000:0001::/64 at your upstream router to avoid NDP failures. Without this routing rule in place,
+  For example, if your VPN server has the public facing IPv6 address of ``2000::1/32`` and you plan to use the subnet of
+  ``2000:0000:0000:0001::/64`` as your tunnel network, you must have a route marking ``2000::1/32`` as the next hop address for
+  the subnet ``2000:0000:0000:0001::/64`` at your upstream router to avoid NDP failures. Without this routing rule in place,
   IPv6 traffic will not reach connecting clients.
 
 Once these two prerequisites are met, it's simple to enable dualstack support on a UH VPN server.

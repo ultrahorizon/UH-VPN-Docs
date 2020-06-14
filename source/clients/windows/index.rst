@@ -2,10 +2,16 @@
 Windows
 *******
 
-.. warning::
-    If you are experiencing networking issues after downloading the v1.0.0 release of UH VPN for Windows,
-    please click `here`_ to view the resolution steps.
+.. image:: /_static/icons/windows.png
+  :height: 44
+  :alt: Download for Windows
+  :align: center
+  :target: https://uh-vpn.s3.amazonaws.com/clients/windows/uh-vpn-installer_1.0.1.msi
 
-The UH VPN Windows application is currently undergoing final testing and is scheduled for release by 14th June 2020.
+The UH VPN Windows application can be downloaded by clicking the badge at the top
+of the page. The sections below detail specific instructions on how to use the Windows application.
 
-.. _here: https://github.com/ultrahorizon/UH-VPN-Docs/issues/24
+..  toctree::
+    :maxdepth: 1
+
+    installation

@@ -15,6 +15,10 @@ Open-source issue tracker and documentation hub for [UH VPN](https://uh-vpn.com)
 Head over to [issues](https://github.com/ultrahorizon/UH-VPN-Docs/issues/new/choose) and create a new one by using one of the pre-made templates to describe your question/bug/request.
 Our development team aim to respond within two days.
 
+### Issue tags:
+
+We track issues using multiple tags and each one has a specific meaning in relation to an issue you file and it's important you understand what each one means so that you can understand how your issue is being handled. Please see this [list](https://github.com/ultrahorizon/UH-VPN-Docs/labels) for descriptions of all of our tags.
+
 ## Building the docs locally
 
 - Clone the repo:

@@ -17,14 +17,49 @@ as this provisioning technique allows an entire UH VPN deployment to be set up i
 Step 1: Create an AWS Instance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-First create an account or login at: `AWS`_. Then head over to the EC2 page and create a new instance
-from the UH VPN AMI. Use an instance size appropriate for your needs and ensure that a security group
-is configured allowing traffic:
+First create an account or login at: `AWS`_. Then head over to the EC2 page, press launch and select UH VPN
+from the AWS Marketplace tab:
 
-- UDP 443 from Anywhere
-- TCP 22 from Anywhere
+.. image:: /_static/setup-guides/aws-ami-selection.png
+  :width: 600
+  :alt: AWS AMI Selection
 
-Once launched, note down the public IPv4 address of the instance as this will be used later.
+The UH VPN AMI is free to use, so go ahead and press continue to any pricing popups displayed.
+
+Use an instance size appropriate for your needs. In this guide we'll set up UH VPN using a free tier
+eligible instance, the ``t2.micro``:
+
+.. image:: /_static/setup-guides/aws-instance-type.png
+  :width: 600
+  :alt: AWS Instance Type
+
+Ensure that you enable public IPv4 networking when prompted by enabling "Auto-assign Public IP":
+
+.. image:: /_static/setup-guides/aws-enable-ip.png
+  :width: 600
+  :alt: Enable Public IP
+
+Choose an appropriate value for storage size, 8GB is sufficient for most usages:
+
+.. image:: /_static/setup-guides/aws-storage-size.png
+  :width: 600
+  :alt: Select Storage Size
+
+Skip the next step regarding tags, and configure security groups:
+
+.. image:: /_static/setup-guides/aws-security-group.png
+  :width: 600
+  :alt: AWS Security Group
+
+Accept the default rules provided by the UH VPN image and press "Review and Launch", then press "Launch" to
+create the instance!
+
+Now head over to the AWS EC2 dashboard and note down the IPv4 address of the newly created instance as it'll
+be used later in this guide:
+
+.. image:: /_static/setup-guides/aws-instance-overview.png
+  :width: 600
+  :alt: AWS Instance Overview
 
 Step 2: Create a Server on the UH VPN Website
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -144,7 +179,7 @@ the profile. Then you can **connect and enjoy a fast, secure and private VPN con
     Instructions for client apps can be found on the `clients docs page`_.
 
 
-.. _AWS: https://www.console.aws.amazon.com/
+.. _AWS: https://console.aws.amazon.com/
 .. _website: https://uh-vpn.com
 .. _create an account: https://uh-vpn.com/auth/signup
 .. _Creating Groups: website/groups/creating.html

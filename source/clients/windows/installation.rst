@@ -40,4 +40,4 @@ In the Certificate dialog go to the "Details" tab, and find the
 
 ``ccaef34bfe6f8c8d180b240392487f4de45ed887``
 
-If you have any further questions feel free to raise an issue on our [issue tracker](LINK).
+If you have any further questions feel free to raise an issue on our [issue tracker](https://github.com/ultrahorizon/UH-VPN-Docs/issues/new/choose).

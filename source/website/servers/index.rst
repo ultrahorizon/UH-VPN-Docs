@@ -26,6 +26,7 @@ Advanced server tutorials
     :maxdepth: 1
 
     dualstack
+    inter-client
     custom-crypto
     split-routing
 

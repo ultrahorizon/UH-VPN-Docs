@@ -25,9 +25,9 @@ To contribute to UH VPN Docs, please do the following:
 
 1. Create an issue in UH VPN Docs and assign yourself to it.
 2. Fork this repo.
-3. Make your changes on feature branch within your newly forked repo.
-4. Create a PR within this repo proposing a merge from your personal feature branch into the master branch on this repository.
-5. Link the issue from the PR by including the text `Resolves #num` where `num` is the appropriate issue number.
+3. Make your changes on a feature branch within your newly forked repository.
+4. Create a pull request within this repository proposing a merge from your personal feature branch into the master branch in this repository.
+5. Link the issue from the pull request by including the text `Resolves #num` where `num` is the appropriate issue number.
 6. Request a review from a moderator.
 
 ## Building the docs locally

@@ -19,6 +19,17 @@ Our development team aim to respond within two days.
 
 We track issues using multiple tags and each one has a specific meaning in relation to an issue you file and it's important you understand what each one means so that you can understand how your issue is being handled. Please see this [list](https://github.com/ultrahorizon/UH-VPN-Docs/labels) for descriptions of all of our tags.
 
+## Contributions
+
+To contribute to UH VPN Docs, please do the following:
+
+1. Create an issue in UH VPN Docs and assign yourself to it.
+2. Fork this repo.
+3. Make your changes on feature branch within your newly forked repo.
+4. Create a PR within this repo proposing a merge from your personal feature branch into the master branch on this repository.
+5. Link the issue from the PR by including the text `Resolves #num` where `num` is the appropriate issue number.
+6. Request a review from a moderator.
+
 ## Building the docs locally
 
 - Clone the repo:
@@ -44,14 +55,3 @@ pip install -r requirements.txt
 ```bash
 make html
 ```
-
-## Contributions
-
-To contribute to UH VPN Docs, please do the following:
-
-1. Create an issue in UH VPN Docs and assign yourself to it.
-2. Fork this repo.
-3. Make your changes on feature branch within your newly forked repo.
-4. Create a PR within this repo proposing a merge from your personal feature branch into the master branch on this repository.
-5. Within the PR, link the issue by including the text `Resolves #num` where `num` is the appropriate issue number.
-6. Request a review from a moderator.

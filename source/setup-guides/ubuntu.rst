@@ -209,10 +209,10 @@ the profile. Then you can **connect and enjoy a fast, secure and private VPN con
 .. _installation instructions: servers/installation.html
 .. _website: https://uh-vpn.com
 .. _create an account: https://uh-vpn.com/auth/signup
-.. _Creating Groups: website/groups/creating.html
-.. _server creation docs page: website/servers/creating.html
+.. _Creating Groups: ../website/groups/creating.html
+.. _server creation docs page: ../website/servers/creating.html
 .. |key_icon| image:: /_static/icons/key.svg
   :alt: Key Icon
-.. _server documentation: servers/index.html
-.. _device creation docs page: website/devices/creating.html
-.. _clients docs page: clients/index.html
+.. _server documentation: ../servers/index.html
+.. _device creation docs page: ../website/devices/creating.html
+.. _clients docs page: ../clients/index.html

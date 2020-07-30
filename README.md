@@ -45,3 +45,13 @@ pip install -r requirements.txt
 make html
 ```
 
+## Contributions
+
+To contribute to UH VPN Docs, please do the following:
+
+1. Create an issue in UH VPN Docs and assign yourself to it.
+2. Fork this repo.
+3. Make your changes on feature branch within your newly forked repo.
+4. Create a PR within this repo proposing a merge from your personal feature branch into the master branch on this repository.
+5. Within the PR, link the issue by including the text `Resolves #num` where `num` is the appropriate issue number.
+6. Request a review from a moderator.

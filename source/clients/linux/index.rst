@@ -18,7 +18,7 @@ it can be utilised via executing the following command:
 
 .. code-block:: bash
 
-    openvpn --config <profile>.ovpn
+    sudo openvpn --config <profile>.ovpn
 
 where ``<profile>`` is substituted for the filename of UH VPN profile. Note that the credentials must then
 be supplied from the ``credentials.txt`` file supplied with the static profile.

@@ -16,6 +16,7 @@ which can be downloaded for offline use.
     website/index
     servers/index
     clients/index
+    security
     support
 
 .. _maintained with the help of the community: https://github.com/ultrahorizon/UH-VPN-Docs

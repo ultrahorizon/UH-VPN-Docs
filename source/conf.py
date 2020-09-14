@@ -59,3 +59,6 @@ html_show_sphinx = False
 
 # Use custom favicon
 html_favicon = '_static/favicon.png'
+
+# Set page title
+html_title = 'UH VPN'

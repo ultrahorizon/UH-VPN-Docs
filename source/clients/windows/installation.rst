@@ -19,7 +19,7 @@ command:
 
 .. code-block:: powershell
 
-    Get-FileHash .\uh-vpn-installer_1.0.3.msi
+    Get-FileHash .\uh-vpn-installer_1.0.4.msi
 
 The output should be as follows, pay close attention that the Hash is exactly
 the same.
@@ -28,8 +28,9 @@ the same.
 
     Algorithm       Hash                                                                   Path
     ---------       ----                                                                   ----
-    SHA256          92D7BCE435987EFF7F266BC54A751E5443593FF036575931F5E69229432CBD08       uh-vpn-installer_1.0.3.msi
+    SHA256          DCA433813F041B0F2E84D41CF1392DF548E8705549606CD52E93006EA34064F9       uh-vpn-installer_1.0.4.msi
     ... Older versions (for reference):
+    SHA256          92D7BCE435987EFF7F266BC54A751E5443593FF036575931F5E69229432CBD08       uh-vpn-installer_1.0.3.msi
     SHA256          C85C9140B9598009D8B6DBC684247263BB8559B5A4079F476FC3B8E40BCDD648       uh-vpn-installer_1.0.2.msi
     SHA256          1FE952AE389CDEF4F430980C07C6FF29CA7CCD38CD80EF32E19717F2646AAE44       uh-vpn-installer_1.0.1.msi
     SHA256          32361FCCF91C9D491AD790011CBC529DEC39A0F33EF10B0862BF939A7C4C089A       uh-vpn-installer_1.0.0.msi

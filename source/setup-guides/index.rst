@@ -12,5 +12,4 @@ documentation on this site details all aspects of UH VPN to cater for more advan
     :maxdepth: 1
 
     Digital Ocean (Very Easy) <digital-ocean/index>
-    AWS (Easy) <aws>
     Ubuntu (Easy) <ubuntu>

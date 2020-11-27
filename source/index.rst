@@ -12,6 +12,7 @@ which can be downloaded for offline use.
 ..  toctree::
     :maxdepth: 2
 
+    uh-vpn-enterprise
     setup-guides/index
     website/index
     servers/index

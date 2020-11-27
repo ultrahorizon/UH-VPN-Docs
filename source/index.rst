@@ -25,4 +25,4 @@ which can be downloaded for offline use.
 .. _maintained with the help of the community: https://github.com/ultrahorizon/UH-VPN-Docs
 .. _PDF: https://docs.uh-vpn.com/_/downloads/en/latest/pdf/
 .. _Epub: https://docs.uh-vpn.com/_/downloads/en/latest/epub/
-.. _here: enterprise-only
+.. _here: enterprise-only.html

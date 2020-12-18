@@ -76,7 +76,7 @@ All of our Content was originally written in English. Any translation of our Con
 Payments
 ~~~~~~~~
 
-If you are a core licence customer you will be billed monthly at the rate of £1 +VAT per device. Device usage calculation is done via the maximum number of devices used within the billing period. Billing is handled via our payment partner, Stripe. Failed payments will freeze all VPN operations for a group until billing information is updated. If you delete a group during a billing cycle, you acknowledge that you will be billed immediately with no proration for the amount of devices used during the current billing month.
+If you are a core licence customer you will be billed monthly at the rate of £4 +VAT per device. Device usage calculation is done via the maximum number of devices used within the billing period. Billing is handled via our payment partner, Stripe. Failed payments will freeze all VPN operations for a group until billing information is updated. If you delete a group during a billing cycle, you acknowledge that you will be billed immediately with no proration for the amount of devices used during the current billing month.
 
 Third-party Websites
 ~~~~~~~~~~~~~~~~~~~~

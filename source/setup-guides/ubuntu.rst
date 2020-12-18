@@ -45,13 +45,13 @@ are managed through this interface. The first step (if you haven't done so alrea
   :width: 600
   :alt: Create Group Page
 
-If you're just using UH VPN for a single device, go ahead and click the "Free Plan" button. However,
-if you'd like access to more features such as custom app branding, unlimited devices and advanced
-VPN options, then choose the premium plan. A breakdown of the options can be seen on the
-`Creating Groups`_ docs page. The premium plan is billed monthly at the rate of £1 per device.
+The core plan is ideal for almost all users. However, companies wishing to resell VPN services or
+utilise UH VPN on censored networks may wish to consider the enterprise plan.
+A breakdown of the options can be seen on the `Creating Groups`_ docs page.
+The core licence is billed monthly at the rate of £4 per device.
 
 Choose an appropriate name for the group E.g. Personal and then leave the timeout set at 86400.
-Then press the "Submit" button and the group will be created.
+Then fill in the appropriate billing information and press the "Submit" button then the group will be created.
 
 Click on the group name that has just been created and the following page will be presented:
 

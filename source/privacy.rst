@@ -43,7 +43,7 @@ Information is collected for the purpose of administering the UH VPN subscriptio
 
 Information stored about the entity is for the purpose of maintaining the core UH VPN service, and includes the name, logo, one-time password expiry time and colour choices of the organisation.
 
-Billing information collected when utilising premium groups is held securely by our payment partner Stripe, please see `Stripe's privacy policy`_ for more information. UH VPN securely sends stripe the number of devices in use, billing address, cardholder name and tokenized card details in order to facilitate future payments. Ultra Horizon Ltd is a VAT registered UK based company and so billing address details are required in order to determine VAT status on customer invoices.
+Billing information collected when utilising groups with a core licence is held securely by our payment partner Stripe, please see `Stripe's privacy policy`_ for more information. UH VPN securely sends stripe the number of devices in use, billing address, cardholder name and tokenized card details in order to facilitate future payments. Ultra Horizon Ltd is a VAT registered UK based company and so billing address details are required in order to determine VAT status on customer invoices.
 
 In addition to the above, critical information to facilitate VPN connections to servers hosted by the entity are stored, including a server name, domain/IP address, port number, CA certificate, server certificate, server key, static TLS Key, routing information and transport protocol.
 

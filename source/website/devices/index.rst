@@ -20,8 +20,4 @@ on the person's device page indicates whether the OTP code has been redeemed by 
     deleting
     export
 
-.. note::
-    Billing for UH VPN is based solely on device usage. Free groups are granted usage for up to two devices
-    whilst premium groups are allowed an unlimited number of devices billed at £1 +VAT per device per month.
-
 .. _website: https://uh-vpn.com

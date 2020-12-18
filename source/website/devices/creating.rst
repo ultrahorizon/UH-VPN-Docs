@@ -27,7 +27,7 @@ set by the group's "device registration timeout", the OTP icon will change to |f
 will need to be deleted and a new one created.
 
 .. note::
-    If using custom branding on premium groups, UH VPN device enrollment emails are custom branded
+    If using custom branding on enterprise groups, UH VPN device enrollment emails are custom branded
     to your specification.
 
 .. |pending_otp| image:: /_static/icons/primitive-dot-orange.svg

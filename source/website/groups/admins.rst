@@ -1,7 +1,7 @@
 Group Administrators
 ====================
 
-Premium groups can have more than one administrator. This enables multiple user accounts
+UH VPN groups can have more than one administrator. This enables multiple user accounts
 to control all aspects of the group. This setup is particularly suited to environments where
 more than one person is responsible for VPN operations. For example, IT engineers within a
 company.

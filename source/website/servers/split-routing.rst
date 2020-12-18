@@ -1,5 +1,5 @@
-Split Routing (Premium Feature)
-===============================
+Split Routing (Enterprise Feature)
+==================================
 
 Split routing is often used where it is not desirable to route your entire Internet connection over the VPN tunnel.
 For example, you may wish to utilise your standard Internet connection for general browsing whilst having UH VPN to

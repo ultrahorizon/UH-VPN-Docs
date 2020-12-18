@@ -1,5 +1,5 @@
-Custom Cryptography (Premium Feature)
-=====================================
+Custom Cryptography (Enterprise Feature)
+========================================
 
 .. warning::
     Rolling your own crypto is dangerous. If you are at all unsure about what you are doing, use the cryptographic

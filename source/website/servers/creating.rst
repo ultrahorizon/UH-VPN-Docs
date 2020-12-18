@@ -24,8 +24,8 @@ the relevant group page. One will then be presented with a list of fields to fil
     By default all UH VPN servers will push the routes 0.0.0.0/0 and ::/0 to redirect all IPv4 and IPv6
     traffic over the VPN interface.
 
-Premium Server Options
-~~~~~~~~~~~~~~~~~~~~~~
+Enterprise Server Options
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * **Redirect IPv4 Traffic** : This controls whether the 0.0.0.0/0 route is pushed to clients.
 * **Custom IPv4 Routes** : When the above redirect button is disabled, one has the ability to insert

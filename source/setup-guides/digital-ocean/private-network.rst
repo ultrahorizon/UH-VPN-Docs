@@ -89,14 +89,14 @@ server is booted. Then finally make sure the script is executable:
     It is imperative that you update this rule in ``/etc/rc.local`` if you change the tunnel
     network in the UH VPN Server settings.
 
-Premium Enhancements
-~~~~~~~~~~~~~~~~~~~~
+Enterprise Enhancements
+~~~~~~~~~~~~~~~~~~~~~~~
 
 It is quite common for cloud users to only want traffic destined for the Digital Ocean private
 network to be routed over the VPN instead of their entire Internet connection. This is to avoid
 extra charges from Digital Ocean if bandwidth/data exceeds the monthly allowance.
 
-This can be easily accomplished via UH VPN's custom IP routing (a premium plan feature). To enable this
+This can be easily accomplished via UH VPN's custom IP routing (an enterprise licence feature). To enable this
 functionality head over to the `website`_ and within the relevant group click the |edit_icon|
 next to the server in question.
 

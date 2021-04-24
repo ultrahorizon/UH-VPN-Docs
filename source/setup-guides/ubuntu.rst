@@ -38,26 +38,12 @@ Step 2: Create a Server on the UH VPN Website
 
 The UH VPN `website`_ is the command and control centre for the VPN deployment. All VPN settings
 are managed through this interface. The first step (if you haven't done so already) is to
-`create an account`_. Then once logged in, click the management tab and then press the
-"Create New Group" button. One is then presented with the following page:
-
-.. image:: /_static/setup-guides/create-group.png
-  :width: 600
-  :alt: Create Group Page
-
-The core plan is ideal for almost all users. However, companies wishing to resell VPN services or
-utilise UH VPN on censored networks may wish to consider the enterprise plan.
-A breakdown of the options can be seen on the `Creating Groups`_ docs page.
-The core licence is billed monthly at the rate of £4 per device.
-
-Choose an appropriate name for the group E.g. Personal and then leave the timeout set at 86400.
-Then fill in the appropriate billing information and press the "Submit" button then the group will be created.
-
-Click on the group name that has just been created and the following page will be presented:
+purchase UH VPN. Once this is done, simply login and click on the group name that has
+been created for you and the following page will be presented:
 
 .. image:: /_static/setup-guides/group-page.png
   :width: 600
-  :alt: Group Page
+  :alt: Group Pager
 
 The first step is to create a UH VPN server, click the "Create New Server" button and the following
 page will be presented:
@@ -208,7 +194,6 @@ the profile. Then you can **connect and enjoy a fast, secure and private VPN con
 
 .. _installation instructions: servers/installation.html
 .. _website: https://uh-vpn.com
-.. _create an account: https://uh-vpn.com/auth/signup
 .. _Creating Groups: ../website/groups/creating.html
 .. _server creation docs page: ../website/servers/creating.html
 .. |key_icon| image:: /_static/icons/key.svg

@@ -3,7 +3,7 @@ Installation
 
 UH VPN Server software demands the following prerequisites:
 
-* **OS**: Ubuntu 24.04 (Noble Numbat)
+* **OS**: Ubuntu 22.04 (Jammy Jellyfish) or 24.04 (Noble Numbat)
 * **RAM**: 100MB (1GB preferable)
 * **Network**: Machine accessible either by public IP address, hostname or dynamic DNS.
 

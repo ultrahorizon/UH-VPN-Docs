@@ -4,7 +4,7 @@ Ubuntu Setup Guide
 This guide is a walkthrough tutorial on setting up UH VPN for a machine running Ubuntu. This machine
 can be either virtual or physical, but must satisfy the following requirements:
 
-* **OS**: Ubuntu 18.04, 19.10, 20.04 or 20.10
+* **OS**: Ubuntu 24.04 (Noble Numbat)
 * **RAM**: minimum 100MB (1GB preferable)
 * **Network**: Machine accessible either by public IP address, hostname or dynamic DNS.
 
@@ -127,7 +127,7 @@ Then to ensure UH VPN Server starts at boot, issue the following command:
     sudo systemctl enable uh-vpn-server
 
 Next it's time to add the UH VPN Server API token we obtained earlier. This will
-enable the UH VPN Server software to set up the VPN server on our Droplet.
+enable the UH VPN Server software to set up the VPN server on our server.
 
 .. code-block:: bash
 

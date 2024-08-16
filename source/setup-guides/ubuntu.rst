@@ -4,7 +4,7 @@ Ubuntu Setup Guide
 This guide is a walkthrough tutorial on setting up UH VPN for a machine running Ubuntu. This machine
 can be either virtual or physical, but must satisfy the following requirements:
 
-* **OS**: Ubuntu 22.04 (Jammy Jellyfish) or 24.04 (Noble Numbat)
+* **OS**: Ubuntu 20.04 (focal), 22.04 (jammy) or 24.04 (noble)
 * **RAM**: minimum 100MB (1GB preferable)
 * **Network**: Machine accessible either by public IP address, hostname or dynamic DNS.
 
